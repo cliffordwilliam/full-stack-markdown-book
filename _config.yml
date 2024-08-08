@@ -6,5 +6,4 @@ description: [Compilation of Odin Project Curriculum]
 show_downloads: ["true"]
 # google_analytics: [Your Google Analytics tracking ID]
 markdown: kramdown
-baseurl: ""
 url: "https://cliffordwilliam.github.io" # Your GitHub Pages URL
