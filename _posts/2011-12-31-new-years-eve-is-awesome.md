@@ -4,11 +4,10 @@ layout: default
 title:  "Welcome to Jekyll!"
 ---
 
-## TOC
+# Welcome
+
 * TOC
 {:toc}
-
-# Welcome
 
 **Hello world**, this is my first Jekyll blog post.
 
