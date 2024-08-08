@@ -1,7 +1,6 @@
 # Full-stack Markdown Book
 
 ## TOC
-- asd
 * TOC
 {:toc}
 
