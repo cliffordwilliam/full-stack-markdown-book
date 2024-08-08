@@ -1,6 +1,5 @@
 ---
-# layout: post
-layout: default
+layout: post
 title:  "Welcome to Jekyll!"
 ---
 
