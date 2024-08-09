@@ -54,6 +54,10 @@ Here are the basic web developer tools:
 
 Learning to code is difficult and you will need enjoyment in building things, problem solving and persistence to push through.
 
+## Outside sources
+
+Sections from here on out are from outside sources.
+
 ## Why Learning to Code is So Damn Hard
 
 This section reference is [here](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/)
@@ -132,3 +136,100 @@ Tips:
   - Maintainable
 
 Now you understand the road ahead and the tips on each phase.
+
+## Wikipedia entry on web design
+
+Making and maintaining website requires teams with different skills such as web graphic design, user interface design, user experience design, search engine optimization and much more. Website making combines design and engineering, they also need to adhere to the usability and web accessibility guidelines.
+
+## Front-end, back-end and fullstack
+
+Web developers have good job security because, as of June 2021 there are more than 1.8 billion website, now businesses all need websites to stay competitive and website building process changes rapidly. Thus it is good to know what positions are available for web developers. Employment is [projected to grow](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm) 8 percent between 2019 and 2029, faster than most occupations.
+
+### What is a Front-End Developer?
+
+They use HTML, CSS and JavaScript to create instruction for browsers to draw a page with fonts, buttons and sliders that you can see and click on your screen. They also write instruction for page navigation.
+
+### Skills and Tools Required for Front-End Development
+
+They also need to know how to use frameworks and libraries, these are pre-written codes.
+
+Here is an analogy. Front-end development is like building a Tamiya car. Framework is the pre-made car chassis and the page navigation instruction while library is the pre-made car motor and the Google sign-in form. You can make all that yourself or you can buy them
+
+Here are sites that uses the Next.js framework:
+- [Netflix](https://www.netflix.com/)
+- [Spotify](https://open.spotify.com/)
+- And so much more
+
+There are times when you must use only HTML, CSS and JavaScript. Because you can make wild things that no framework can ever do:
+- [wutheringwaves](https://wutheringwaves.kurogames.com/en/main)
+- These are rare
+
+If you like having your work be drawn on the screen and you can interact with it, like making a video game, then front-end is suitable for you.
+
+### How it Translates
+
+The drawings, photos, texts, data are all from designers, photographers, copywriters, back-end developers. So front-end developer just take content and arrange them in a pleasing way for the eye and user experience.
+
+### What is a Back-End Developer?
+
+Back-end developer provides the data like the currently logged in user, the user account balance, or the number of visitor a user had and more to front-end where they arrange that in a card or button on a page. Data is stored in a similar way to an excel software.
+
+Here is the flow in a nutshell:
+1. Raw data are all stored in rented servers, the only responsibility it has is to just store data.
+2. The data manipulation logic is stored in another rented computer, the only responsibility it has is to get and process data from server:
+  - Logic consists of a finite amount of commands, like get all user or get a certain user with their blog posts, or add 1 new user and so on.
+4. Front-end rented computer will ask the back-end logic for data, like get all user, then front-end will draw each user in a card.
+
+Here is an analogy:
+1. First we need to rent a storage to store the burger ingredients.
+2. Then we need to rent a chef and teach him all of the recipe we have.
+3. Then the front-end clerk will ask our chef to make a food on the recipe, clerk will arrange the food on the plate before giving it to the customer.
+
+Note that you can make a front-end only app or back-end only app. Front-end only app data will only be remembered in your browser since you do not have back-end as persistent storage. So if you change the data, close the browser, the data will reset. Back-end only app will only serve you text, so you can ask it for data but you will only get texts like this in your browser:
+
+```json
+{
+  "abilities": [
+    {
+      "ability": {
+        "name": "limber",
+        "url": "https://pokeapi.co/api/v2/ability/7/"
+      },
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "ability": {
+        "name": "imposter",
+        "url": "https://pokeapi.co/api/v2/ability/150/"
+      },
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+}
+```
+
+Back-end developer use database languages and programming languages to create the finite commands to process data. They also have their own framework that provides commonly used commands. Back-end developer works together with business stakeholders to translate business logic into code logic, code logic.
+
+If you like playing with excel, you will love back-end development.
+
+### How it Translate
+
+When you go to social media and see who followed you, the back-end developers are the ones responsible for creating data relationship binds between your account and your followers account.
+
+### What is a Full Stack Developer?
+
+Full-stack developer master both. This role was popularized by [Facebook engineering department](https://www.facebook.com/notes/10158791462547200/).
+
+### Skills and Tools Required for Full Stack Developers
+
+Full-stack now needs to know a all of things from both sides.
+
+### How it Translate
+
+They are responsible for both sides.
+
+### The Bottom Line
+
+Being a good developer is one thing but you also need soft skills, attention to detail, learn quickly, problem solving skills, business knowledge, good communication skills and more.
