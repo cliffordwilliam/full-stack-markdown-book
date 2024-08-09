@@ -156,8 +156,8 @@ They also need to know how to use frameworks and libraries, these are pre-writte
 Here is an analogy. Front-end development is like building a Tamiya car. Framework is the pre-made car chassis and the page navigation instruction while library is the pre-made car motor and the Google sign-in form. You can make all that yourself or you can buy them
 
 ![front_end_back_end_and_fullstack_framework_tamiya_parts]({{ "/assets/images/front_end_back_end_and_fullstack_framework_tamiya_parts.jpg" | relative_url }})
-![front_end_back_end_and_fullstack_framework_clerk]({{ "/assets/images/front_end_back_end_and_fullstack_framework_clerk.jpg" | relative_url }})
 ![front_end_back_end_and_fullstack_framework_nextjs]({{ "/assets/images/front_end_back_end_and_fullstack_framework_nextjs.jpg" | relative_url }})
+![front_end_back_end_and_fullstack_framework_clerk]({{ "/assets/images/front_end_back_end_and_fullstack_framework_clerk.jpg" | relative_url }})
 
 Here are sites that uses the Next.js framework:
 - [Netflix](https://www.netflix.com/)
