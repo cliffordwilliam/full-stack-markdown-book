@@ -20,8 +20,10 @@ Contacts:
 
 ## Chapters
 
-{% for post in site.posts %}
+{% assign reversed_posts = site.posts | reverse %}
+{% for post in reversed_posts %}
   * {{ post.date | date: "%B %d, %Y" }} [{{ post.title }}]({{ post.url | relative_url }})
 {% else %}
   No posts found.
 {% endfor %}
+
