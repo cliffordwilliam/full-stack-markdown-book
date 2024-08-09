@@ -10,4 +10,15 @@ Lesson contents:
 
 ## Introduction
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nulla aspernatur asperiores, quod doloribus eos, repudiandae repellat ut cupiditate quis voluptates iste dignissimos numquam nam, reprehenderit deserunt vero delectus animi!
+People who build and maintain websites are web developers, they work for clients to make web services. Their work is project and team focused. Clients are tech companies, organizations or government.
+
+Web developer profession is suitable for those who like:
+- Solving logical problems
+- Building things
+- Experimenting new technologies
+
+Generally have good work-life balance and salary since everyone now needs websites.
+
+## Types of web developers
+
+Here you study to become a full-stack web developer. But there are 2 other types: front-end and back-end.
