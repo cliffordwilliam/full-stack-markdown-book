@@ -28,6 +28,3 @@ Contacts:
   <li>No posts found.</li>
 {% endfor %}
 </ol>
-
-{% endfor %}
-
