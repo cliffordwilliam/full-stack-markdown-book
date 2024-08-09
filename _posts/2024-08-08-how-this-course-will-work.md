@@ -39,17 +39,33 @@ Open-source community since 2013, provides free knowledge to be an employable an
 
 ## Faq Odin
 
-- You will learn the following technologies:
-    - HTML.
-    - CSS.
-    - JavaScript.
-    - Git.
-    - Deployment.
-    - So much more.
-- Odin also helps you with job hunting strategies.
-- It is called Odin because in the Norse mythology he seeks knowledge.
-- If you want to join the Odin [Discord](https://discord.gg/fbFCkYabZB) to hang out or ask for help, please read their [Code of Conduct on Github](https://github.com/TheOdinProject/.github/blob/main/CODE_OF_CONDUCT.md) first.
-- Odin site code is under an MIT license. But their curriculum is under Creative Commons license where prior authorization request is needed for commercial use. Contact via email [here](theodinprojectcontact@gmail.com).
+<dl>
+  <dt>Technologies You Will Learn</dt>
+  <dd>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git</li>
+      <li>Deployment</li>
+      <li>So much more</li>
+    </ul>
+  </dd>
+  
+  <dt>Job Hunting Strategies</dt>
+  <dd>Odin also helps you with job hunting strategies.</dd>
+  
+  <dt>Origin of the Name</dt>
+  <dd>It is called Odin because in Norse mythology, he seeks knowledge.</dd>
+  
+  <dt>Join the Community</dt>
+  <dd>If you want to join the Odin <a href="https://discord.gg/fbFCkYabZB">Discord</a> to hang out or ask for help, please read their <a href="https://github.com/TheOdinProject/.github/blob/main/CODE_OF_CONDUCT.md">Code of Conduct on Github</a> first.</dd>
+  
+  <dt>Licenses</dt>
+  <dd>
+    Odin site code is under an MIT license. But their curriculum is under a Creative Commons license where prior authorization request is needed for commercial use. Contact via email <a href="mailto:theodinprojectcontact@gmail.com">here</a>.
+  </dd>
+</dl>
 
 ## Knowledge check
 
