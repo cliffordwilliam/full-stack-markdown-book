@@ -60,19 +60,19 @@ This section reference is [here](https://web.archive.org/web/20230630111131/http
 
 Know your journey ahead here. This content is from hundreds of developers experience, it shows the common pitfalls they had falled into so that now you can avoid them all.
 
-![why_learning_to_code_is_so_damn_hard_tips](https://github.githubassets.com/images/why_learning_to_code_is_so_damn_hard_tips.jpg)
+![why_learning_to_code_is_so_damn_hard_tips]({{ "/assets/images/why_learning_to_code_is_so_damn_hard_tips.jpg" | relative_url }})
 
 > ... was convinced that the seemingly normal programmers I ran into were actually sociopaths who had experienced, then repressed, the trauma of learning to code.
 
 There are 4 phases, a phase is defined by the **required knowledge** and **resource density**.
 
-![why_learning_to_code_is_so_damn_hard_resource_density](https://github.githubassets.com/images/why_learning_to_code_is_so_damn_hard_resource_density.jpg)
+![why_learning_to_code_is_so_damn_hard_resource_density]({{ "/assets/images/why_learning_to_code_is_so_damn_hard_resource_density.jpg" | relative_url }})
 
-![why_learning_to_code_is_so_damn_hard_required_knowledge](https://github.githubassets.com/images/why_learning_to_code_is_so_damn_hard_required_knowledge.jpg)
+![why_learning_to_code_is_so_damn_hard_required_knowledge]({{ "/assets/images/why_learning_to_code_is_so_damn_hard_required_knowledge.jpg" | relative_url }})
 
 You are only employable when your skill level and confidence level is both high.
 
-![why_learning_to_code_is_so_damn_hard_confidence_vs_competence](https://github.githubassets.com/images/why_learning_to_code_is_so_damn_hard_confidence_vs_competence.jpg)
+![why_learning_to_code_is_so_damn_hard_confidence_vs_competence]({{ "/assets/images/why_learning_to_code_is_so_damn_hard_confidence_vs_competence.jpg" | relative_url }})
 
 ### Phase 1: The Hand-Holding Honeymoon
 
