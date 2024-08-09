@@ -58,4 +58,22 @@ Learning to code is difficult and you will need enjoyment in building things, pr
 
 This section reference is [here](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/)
 
-asdasd
+Know your journey ahead here. This content is from hundreds of developers experience, it shows the common pitfalls they had falled into so that now you can avoid them all.
+
+> ... was convinced that the seemingly normal programmers I ran into were actually sociopaths who had experienced, then repressed, the trauma of learning to code.
+
+There are 4 phases, a phase is defined by the **required knowledge** and **resource density**.
+
+You are only employable when your skill level and confidence level is both high.
+
+### Phase 1: The Hand-Holding Honeymoon
+
+This phase has numerous resources but very small required knowledge. most resources are from "Learn to Code" movement like Codecademy. "Learn to Code" is a very high quality isolated environment that only teaches syntax but gives you too much confidence for your current skill level.
+
+Things that you need to know here are the same regardless what your end goal is, it is just syntax.
+
+### Phase 2: The Cliff of Confusion
+
+This phase resources has a huge drop but has a huge jump in required knowledge. Overconfidence people breaks here when they realized that they cannot do anything, most people gives up here. Some keeps going in hopes of getting better while debugging problems that you do not understand and thus not even know how to ask about it. The sign that you pass this phase is when you somehow have made some projects that actually works.
+
+Here you need to learn how to read errors, when to use certain code. Like Phase 1 shows you how each chess pieces move with numerous resources, in Phase 2 you learn how to move them to attack, defense and so on with limited resources.
