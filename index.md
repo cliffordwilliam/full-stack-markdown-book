@@ -22,7 +22,7 @@ Contacts:
 
 {% assign reversed_posts = site.posts | reverse %}
 {% for post in reversed_posts %}
-  * {{ post.date | date: "%B %d, %Y" }} [{{ post.title }}]({{ post.url | relative_url }})
+  * [{{ post.title }}]({{ post.url | relative_url }})
 {% else %}
   No posts found.
 {% endfor %}
