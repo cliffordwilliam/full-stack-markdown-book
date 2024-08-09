@@ -39,33 +39,21 @@ Open-source community since 2013, provides free knowledge to be an employable an
 
 ## Faq Odin
 
-<dl>
-  <dt>Technologies You Will Learn</dt>
-  <dd>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Git</li>
-      <li>Deployment</li>
-      <li>So much more</li>
-    </ul>
-  </dd>
-  
-  <dt>Job Hunting Strategies</dt>
-  <dd>Odin also helps you with job hunting strategies.</dd>
-  
-  <dt>Origin of the Name</dt>
-  <dd>It is called Odin because in Norse mythology, he seeks knowledge.</dd>
-  
-  <dt>Join the Community</dt>
-  <dd>If you want to join the Odin <a href="https://discord.gg/fbFCkYabZB">Discord</a> to hang out or ask for help, please read their <a href="https://github.com/TheOdinProject/.github/blob/main/CODE_OF_CONDUCT.md">Code of Conduct on Github</a> first.</dd>
-  
-  <dt>Licenses</dt>
-  <dd>
-    Odin site code is under an MIT license. But their curriculum is under a Creative Commons license where prior authorization request is needed for commercial use. Contact via email <a href="mailto:theodinprojectcontact@gmail.com">here</a>.
-  </dd>
-</dl>
+- **What technologies will I learn?**  
+  HTML, CSS, JavaScript, Git, Deployment, and more.
+
+- **How does Odin help with job hunting?**  
+  Odin provides strategies and resources to assist with job hunting.
+
+- **Why is it called Odin?**  
+  It is named after Odin from Norse mythology, who seeks knowledge.
+
+- **How can I join the Odin community?**  
+  You can join the Odin [Discord](https://discord.gg/fbFCkYabZB) to hang out or ask for help. Please read their [Code of Conduct on GitHub](https://github.com/TheOdinProject/.github/blob/main/CODE_OF_CONDUCT.md) first.
+
+- **What are the licensing terms?**  
+  The Odin site code is under an MIT license. The curriculum is under a Creative Commons license, requiring prior authorization for commercial use. Contact via email [here](mailto:theodinprojectcontact@gmail.com).
+
 
 ## Knowledge check
 
