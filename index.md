@@ -23,8 +23,9 @@ Contacts:
 {% assign reversed_posts = site.posts | reverse %}
 <ol>
 {% for post in reversed_posts %}
-  <li>{{ post.date | date: "%B %d, %Y" }} [{{ post.title }}]({{ post.url | relative_url }})</li>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% else %}
   <li>No posts found.</li>
 {% endfor %}
 </ol>
+
