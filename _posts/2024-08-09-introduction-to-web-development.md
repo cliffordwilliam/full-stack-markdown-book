@@ -68,12 +68,59 @@ You are only employable when your skill level and confidence level is both high.
 
 ### Phase 1: The Hand-Holding Honeymoon
 
-This phase has numerous resources but very small required knowledge. most resources are from "Learn to Code" movement like Codecademy. "Learn to Code" is a very high quality isolated environment that only teaches syntax but gives you too much confidence for your current skill level.
+This phase has numerous resources but very small required knowledge.
+
+Most resources are from "Learn to Code" movement like Codecademy. "Learn to Code" is a very high quality isolated environment that only teaches syntax but gives you too much confidence for your current skill level.
 
 Things that you need to know here are the same regardless what your end goal is, it is just syntax.
 
+Tips:
+- Try different resources to see how you learn best and what projects interests you.
+- Ignore anything about what you should learn, all is the same in this phase.
+- Pick 1 resource that fits you and finish it.
+
 ### Phase 2: The Cliff of Confusion
 
-This phase resources has a huge drop but has a huge jump in required knowledge. Overconfidence people breaks here when they realized that they cannot do anything, most people gives up here. Some keeps going in hopes of getting better while debugging problems that you do not understand and thus not even know how to ask about it. The sign that you pass this phase is when you somehow have made some projects that actually works.
+This phase resources has a huge drop but has a huge jump in required knowledge.
+
+Overconfidence people breaks here when they realized that they cannot do anything, most people gives up here. Some keeps going in hopes of getting better while debugging problems that you do not understand and thus not even know how to ask about it. The sign that you pass this phase is when you somehow have made some projects that actually works.
 
 Here you need to learn how to read errors, when to use certain code. Like Phase 1 shows you how each chess pieces move with numerous resources, in Phase 2 you learn how to move them to attack, defense and so on with limited resources.
+
+Tips:
+- You have to build to learn, do not rely on tutorials. The real world does not have tutorials at work.
+- Cooperate with someone else, this makes debugging easier.
+- Learn from other`s code, learn why people do things the way they do and learn what is good and bad code.
+- Do small projects constantly in this phase, your goal is experience.
+
+### Phase 3: The Desert of Despair
+
+This phase resources drops the most, but the required knowledge drops slightly.
+
+This phase is long and pathless, there are many paths to take but you do not know which one to take to reach your goal to be a professional, most people falls into the wrong paths here and got lost. Thus why it is hard to measure progress.
+
+Your goal here is to keep looking until you get a project to work as expected, these are your real projects and where you start to understand.
+
+Tips:
+- Have a strong goal, do not fall into mirages as you won`t get anywhere.
+- Find a strong path to your goal, dig deep and spend time to validate the book or site if it does gets you there.
+- Focus, do not get side tracked learning non related things in this phase.
+
+### Phase 3: The Upswing of Awesome
+
+This phase resources increases almost as much as the beginning and so does the required knowledge.
+
+Here your Googling skill is excellent and you understand industry blog posts and screencasts. You are now deep in a framework and knows how to build a working app. But under the hood it is all duct tapes, you do not know what is bad and what is good about it. As you keep going to feel like a fraud, you feel like being a professional is still far but you will make it.
+
+You need to fill in the knowledge holes to be professional and land a job.
+
+Tips:
+- Seek and follow best practices, find the best solution to make production ready code in real job setting.
+- Never make assumptions on how things work, learn it and fill knowledge gap.
+- Tackle the weak skills, things like testing and deployment that are rarely covered should be mastered to be professional.
+- Get feedbacks, that is the only way you know how to write code that works in a professional teamwork setting:
+  - Legible
+  - Modular
+  - Maintainable
+
+Now you understand the road ahead and the tips on each phase.
