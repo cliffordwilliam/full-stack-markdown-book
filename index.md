@@ -14,8 +14,8 @@ The Odin Project is a free open-source community founded in 2013, it provides fr
 
 Unlike other courses, Odin Project has a real world approach to learning, it gives learner a chance to create real world web applications for portfolio and thus it trains their problem solving skills. There is no certificante since employers value good portfolio over certificates.
 
-Contacts:
-- [Email](theodinprojectcontact@gmail.com)
+Odin Project contacts:
+- [Email](mailto:theodinprojectcontact@gmail.com)
 - [Discord](https://discord.gg/fbFCkYabZB)
 
 ## Chapters
