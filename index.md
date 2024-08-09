@@ -21,9 +21,13 @@ Contacts:
 ## Chapters
 
 {% assign reversed_posts = site.posts | reverse %}
+<ol>
 {% for post in reversed_posts %}
-  * [{{ post.title }}]({{ post.url | relative_url }})
+  <li>{{ post.date | date: "%B %d, %Y" }} [{{ post.title }}]({{ post.url | relative_url }})</li>
 {% else %}
-  No posts found.
+  <li>No posts found.</li>
+{% endfor %}
+</ol>
+
 {% endfor %}
 
