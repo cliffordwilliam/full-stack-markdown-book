@@ -49,7 +49,7 @@ Here are tips when you are really stuck:
 
 Here is an algorithm flow to help you get unstuck:
 
-![motivation_and_mindset_unstuck_algorithm]({{ "/assets/images/motivation_and_mindset_unstuck_algorithm.jpg" | relative_url }})
+![motivation_and_mindset_unstuck_algorithm]({{ "/assets/images/motivation_and_mindset_unstuck_algorithm.png" | relative_url }})
 
 ## A note on AI code generation
 
