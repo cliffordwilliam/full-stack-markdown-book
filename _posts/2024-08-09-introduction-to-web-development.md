@@ -270,7 +270,7 @@ You do not have to be a web developer to have a career in web development, you c
 
 Web development is complex and so see the big picture and decide where do you want to be in, WordPress developer? Full-stack? Entreprenuer? If you want to be a web developer you can start in front-end and pick your way up to either a senior front-end or back-end developer.
 
-## Where should you start?
+### Where should you start?
 
 If you want to be a web developer:
 
