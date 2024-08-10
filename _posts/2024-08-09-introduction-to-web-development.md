@@ -154,11 +154,11 @@ Making and maintaining website requires teams with different skills such as web 
 
 ## Front-end, back-end and fullstack
 
+This section reference is [here](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
+
 Web developers have good job security because, as of June 2021 there are more than 1.8 billion website, now businesses all need websites to stay competitive and website building process changes rapidly. Thus it is good to know what positions are available for web developers. Employment is [projected to grow](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm) 8 percent between 2019 and 2029, faster than most occupations.
 
 ### What is a Front-End Developer?
-
-This section reference is [here](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
 They use HTML, CSS and JavaScript to create instruction for browsers to draw a page with fonts, buttons and sliders that you can see and click on your screen. They also write instruction for page navigation.
 
@@ -262,11 +262,11 @@ This section reference is [here](http://www.quora.com/Computer-Programming/How-c
 
 Do not become a web developer because you want to be an entrepreneur. Do it because you enjoy it and have a passion for it. Because pretty salary marks and good cultures are not given perks, if you do it for money you will not be happy.
 
-## Wanting to make a career in web development
+### Wanting to make a career in web development
 
 You do not have to be a web developer to have a career in web development, you can be a WordPress developer to make small blogs, or you can be an entrepenuer that runs a company that makes huge online services.
 
-## Where you fit in
+### Where you fit in
 
 Web development is complex and so see the big picture and decide where do you want to be in, WordPress developer? Full-stack? Entreprenuer? If you want to be a web developer you can start in front-end and pick your way up to either a senior front-end or back-end developer.
 
