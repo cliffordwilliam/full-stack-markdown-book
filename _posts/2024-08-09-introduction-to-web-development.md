@@ -205,6 +205,7 @@ Here is an analogy:
 Note that you can make a front-end only app or back-end only app. Front-end only app data will only be remembered in your browser, so if you change the data, close the browser, the data will reset. Back-end only app will only serve you text, so you can ask it for data but you will only get texts like this in your browser:
 
 [back-end only app](https://pokeapi.co/)
+
 [front-end only app](https://pokedex.org/)
 
 ```json
