@@ -33,11 +33,20 @@ Full-stack developer does both front and back-end.
 
 Here are the clients web developer works with:
 
-1. **Large Tech Companies**: Google, Meta and so on have strict requirements. They offer good pay, benefits and opportunity.
-2. **Startups**: Fast pace, lower salary and long hours but has unique environment and may offer equity.
-3. **Freelancer**: Hourly wage with flexible schedule and you design your own product. You manage and find your own clients and bills.
-4. **Web Consultancy**: Lower wage than freelancing but less hustle. Good work-life balance and pay.
-5. **Older Companies**: Good work-life balance, pay and benefits at the cost of slower pace.
+1. **Large Tech Companies**  
+  Google, Meta and so on have strict requirements. They offer good pay, benefits and opportunity.
+
+2. **Startups**  
+  Fast pace, lower salary and long hours but has unique environment and may offer equity.
+
+3. **Freelancer**  
+  Hourly wage with flexible schedule and you design your own product. You manage and find your own clients and bills.
+
+4. **Web Consultancy**  
+  Lower wage than freelancing but less hustle. Good work-life balance and pay.
+
+5. **Older Companies**  
+  Good work-life balance, pay and benefits at the cost of slower pace.
 
 ## Tools of the trade
 
@@ -139,6 +148,8 @@ Now you understand the road ahead and the tips on each phase.
 
 ## Wikipedia entry on web design
 
+This section reference is [here](https://en.wikipedia.org/wiki/Web_design)
+
 Making and maintaining website requires teams with different skills such as web graphic design, user interface design, user experience design, search engine optimization and much more. Website making combines design and engineering, they also need to adhere to the usability and web accessibility guidelines.
 
 ## Front-end, back-end and fullstack
@@ -146,6 +157,8 @@ Making and maintaining website requires teams with different skills such as web 
 Web developers have good job security because, as of June 2021 there are more than 1.8 billion website, now businesses all need websites to stay competitive and website building process changes rapidly. Thus it is good to know what positions are available for web developers. Employment is [projected to grow](https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm) 8 percent between 2019 and 2029, faster than most occupations.
 
 ### What is a Front-End Developer?
+
+This section reference is [here](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
 They use HTML, CSS and JavaScript to create instruction for browsers to draw a page with fonts, buttons and sliders that you can see and click on your screen. They also write instruction for page navigation.
 
@@ -189,7 +202,10 @@ Here is an analogy:
 2. Then we need to rent a chef and teach him all of the recipe we have.
 3. Then the front-end clerk will ask our chef to make a food on the recipe, clerk will arrange the food on the plate before giving it to the customer.
 
-Note that you can make a front-end only app or back-end only app. Front-end only app data will only be remembered in your browser since you do not have back-end as persistent storage. So if you change the data, close the browser, the data will reset. Back-end only app will only serve you text, so you can ask it for data but you will only get texts like this in your browser:
+Note that you can make a front-end only app or back-end only app. Front-end only app data will only be remembered in your browser, so if you change the data, close the browser, the data will reset. Back-end only app will only serve you text, so you can ask it for data but you will only get texts like this in your browser:
+
+[back-end only app](https://pokeapi.co/)
+[front-end only app](https://pokedex.org/)
 
 ```json
 {
@@ -228,7 +244,7 @@ Full-stack developer master both. This role was popularized by [Facebook enginee
 
 ### Skills and Tools Required for Full Stack Developers
 
-Full-stack now needs to know a all of things from both sides.
+Full-stack need to know both sides.
 
 ### How it Translate
 
@@ -237,3 +253,36 @@ They are responsible for both sides.
 ### The Bottom Line
 
 Being a good developer is one thing but you also need soft skills, attention to detail, learn quickly, problem solving skills, business knowledge, good communication skills and more.
+
+## Quora: How can I Become a Really Good Web Developer?
+
+This section reference is [here](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
+
+### Do not do it for the wrong reason
+
+Do not become a web developer because you want to be an entrepreneur. Do it because you enjoy it and have a passion for it. Because pretty salary marks and good cultures are not given perks, if you do it for money you will not be happy.
+
+## Wanting to make a career in web development
+
+You do not have to be a web developer to have a career in web development, you can be a WordPress developer to make small blogs, or you can be an entrepenuer that runs a company that makes huge online services.
+
+## Where you fit in
+
+Web development is complex and so see the big picture and decide where do you want to be in, WordPress developer? Full-stack? Entreprenuer? If you want to be a web developer you can start in front-end and pick your way up to either a senior front-end or back-end developer.
+
+## Where should you start?
+
+If you want to be a web developer:
+
+1. **Get involved in the community**  
+  Use RRS reader and add Jeffrey Zeldman, Molly Holzschlag, Jeremy Keith, Eric Meyer, Bryan Veloso, Jason Kottke, Ben Alman, Paul Irish, Rebecca Murphy, Jonathan Snook. Follow them on Twitter and their suggested users. Talk to them, read their posts, make comments.
+
+2. **But up some books and read**  
+   Get ePub books because physical technology books get outdated fast. Books like this one you are reading gets updated online for free. Here are some front-end books:
+   - [SMACSS](http://smacss.com/) (free version available)
+   - [Bulletproof Web Design](http://www.simplebits.com/publications/bulletproof/)
+   - [A Book Apart Series](http://www.abookapart.com/)
+   - [O'Reilly books](http://oreilly.com/css-html/index.html)
+
+3. **Practice, challenge yourself and work for other people**  
+   Remake existing sites for fun or do non profit work for experience. Doing challenging things like this is the only way for you to grow. Never oversell yourself to clients as unhappy clients upsets everyone including your resume and reputation.
