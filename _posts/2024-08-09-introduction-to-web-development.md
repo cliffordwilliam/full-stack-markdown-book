@@ -287,3 +287,114 @@ If you want to be a web developer:
 
 - **Practice, challenge yourself and work for other people:**  
    Remake existing sites for fun or do non profit work for experience. Doing challenging things like this is the only way for you to grow. Never oversell yourself to clients as unhappy clients upsets everyone including your resume and reputation.
+
+## Quora: What makes a great web developer?
+
+This section reference is [here](http://www.quora.com/What-makes-a-great-web-developer)
+
+Here are the qualities that employer looks for when hiring a web developer, someone who:
+
+- **The Hacker Mindset:**  
+  Love to work out how things work.
+
+- **Passionante about their trade:**  
+  Is passionate about web development.
+
+- **Excellent knowledge of HTML:**  
+  Understand HTML, they do not have knowledge holes.
+  
+- **Language / platform-agnostic:**  
+   Is not tied down to anything. Knows how to use the right tools.
+    
+- **Separation of concerns:**  
+  Writes readable and organized code.
+
+Overall, best web developers has great knowledge and interest of things around web development too. Like user experience and search engine optimization.
+
+## Jared the Nerd: What makes a good Developer?
+
+This section reference is [here](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
+
+Employers look for web developer applicants (from juniors to mid-levels to seniors) that performs well, happy while working, and who are **excited**. Juniors, mid-levels and seniors are aall excited about different things.
+
+### Good Junior Developers
+
+They are excited about making things, websites, desktop apps, anything. They are excited about learning new things, solving problems and designing solutions. They provide enery to the team, and other more expericed developer acts as anchor to teach them.
+
+### Good Mid-Level Developers
+
+They have more things that excite them, they find new ways of using old tools. They focus more on the big picture business problems (web developer focus on solving problems, not code). They underestimate how long things will take and dive down into rabbit holes. Senior developers keeps them in check, stops them from using old tools in odd ways, telling them how long things will take realistically and pull them out of rabbit holes (AKA overdoing things).
+
+### Good Senior Developers
+
+They provide directions on where to go. Because they had experience and knows the danger up ahead. They find the right solution, teach the juniors, keeps the mid-levels in check from bloating the app.
+
+### Conclusion
+
+Good developers are always excited about making things and solving problems.
+
+## FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code
+
+This section reference is [here](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
+
+### Before you learn to code, think about what you want to code
+
+You need to have a goal to motivate you. Make website, games, apps, startup business, automate everyday task, improve resume, pass a course, anything.
+
+### There`s nothing mystical about it
+
+Coding is like learning how to sculpt, there are rules and proper ways to do things. There are techniques, tools, best practices that people had made over the time. There is no such thing as you are not smart enough to code, because coding is as complicated as you make it to be. If you want to make the most complicated thing ever code lets you do that. But good apps does not have to be complicated at all.
+
+### It never works the first time or second or third
+
+Web developer career is just like any other career, everyday you face new problems, see new error messages to decipher. From junior to seniors we all face this everyday. The only difference is that senior developers have more faith that whatever error they face there is a logical explanation behind it that they can learn to understand. Juniors tend to get intimidated when they see errors.
+
+### Someone will always tell you you`re doing it wrong
+
+Use tabs, not indent, do not comment code, use comments, do not listen to these and just follow the preferred way that most people do and you are okay. The one true path does not exists, there are only preferences. If someone in your workplace later on tells you to do things in certain way, see if that is what the whole company is doing (the style guide that they adhere to), if not then ignore them.
+
+### Someone will always tell you you`re not a real coder
+
+Just use the right tool to build the cool things that people love (no one cares what tool you used to build it). If someone tells you that real programmers know C, who cares. The reason why people have this mentality is the fear that the programmer title will be meaningless if there is no gate keeping. Use the tools you are happy with, as you get better you naturally move on to something like C.
+
+### Worrying about "geek cred" will slowly kill you
+
+Who cares about this, spend time actually getting better at programming rather than worrying if you fit in with the geeks or tech communities. Fitting into anything has nothing to do with being a good programmer.
+
+### Sticking with it is more important than the method
+
+No matter what beginner tutorial online you graduated from. The next tutorials usually already expects you to have a high knowledge in programming. The only way to jump the gap is preseverance, be consistent is learning and building things. Even if you barely understand the first time keep at it as one day it will click.
+
+## TechCrunch: Don`t Believe Anyone who Tells you Learning to Code is Easy
+
+This section reference is [here](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
+
+It is not easy.
+
+Tip, never immediately follow a guide when you have not read the whole thing first. Because what can happen is that in the middle of the guide you will find out that the whole thing is for an older version and now you have no idea how to undo the things you have done, and it may cause problems to your machine. So verify thoroughly that the guide is up to date and then follow it precisely, then note down what you had done (that online guide may be taken down) so you keep track on the things you had done to your machine (or you can tell others how you did what you did).
+
+Most people see programming as a clean thing, but it is a actually a very messy job. Programming work flow is messy and sometimes even frustrating. Programming is about knowing how to ask the right question, knowing how to Google properly, knowing what to copy and paste. There is no mastery as well, no matter how much you study or practice the master ceilling does not exist. At any skill level in your career you will always feel lost and stupid because there are limitless of things to learn. New trendy technologies appears frequently and you have to keep up to stay relevant in the job market or business, this is the never ending learning that will make you feel stupid every time you learn them.
+
+Here is a Recursive Recipe for Learning to Program:
+
+1. **Follow tutorials step by step:**  
+  Follow blindly, just like Hunter S. Thompson. Goal is to get a feel for how things are done in this new framework / language.
+
+2. **Rebuild the thing you just made or a slight variation of it:**  
+  Do not use the tutorial as much, find out what you do not know.
+
+3. **Try to build something simple that you actually want to make:**  
+  Do not use the tutorial at all and build what you want, again find out what you do not know.
+  
+4. **Go back to step 1:**  
+   Find a new tutorial and repeat step 1 until you understand what you do not know.
+
+Once you have done this stumbling around frustrating grind, you start to see the pattern and can now learn faster. Do not stress about learning everything on day 1, keep track of what you do not know and learn them 1 by 1.
+
+## Code Quizzes: Deliberate Programming Practice
+
+This section reference is [here](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
+
+Peter Norvig [Teach Yourself Programming In Ten Years](http://norvig.com/21-days.html) article cited Malcolm Gladwell finding that it takes 10,000 hours of deliberate practice to reach mastery. Do note that office hours are not deliberate practice. Deliberate practice means reading a new book, learning a new language, learning a new course, solving a new challenging problem. Deliberate practice stretches your brain as you do something beyond your current skill level, you want to keep pushing your skill level higher are the ones that are successful. Most of this happen outside of work as someone with 10 years of experiecne in an office work only has 1 year worth of deliberate practice since the rest of the time are just repetitive work.
+
+Today web developer deliberate practice would look like this, first understand how to use a libary or framework, then learn how to do that without library or framework, then create your own framework. You want to keep digging down as far as you need to in order to increase your skill level. Know that it is impossible to learn them all and yet you still have to keep going anyways, that is how to be an expert.
