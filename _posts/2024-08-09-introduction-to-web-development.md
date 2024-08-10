@@ -33,19 +33,19 @@ Full-stack developer does both front and back-end.
 
 Here are the clients web developer works with:
 
-1. **Large Tech Companies**  
+- **Large Tech Companies:**  
   Google, Meta and so on have strict requirements. They offer good pay, benefits and opportunity.
 
-2. **Startups**  
+- **Startups:**  
   Fast pace, lower salary and long hours but has unique environment and may offer equity.
 
-3. **Freelancer**  
+- **Freelancer:**  
   Hourly wage with flexible schedule and you design your own product. You manage and find your own clients and bills.
 
-4. **Web Consultancy**  
+- **Web Consultancy:**  
   Lower wage than freelancing but less hustle. Good work-life balance and pay.
 
-5. **Older Companies**  
+- **Older Companies:**  
   Good work-life balance, pay and benefits at the cost of slower pace.
 
 ## Tools of the trade
@@ -274,15 +274,15 @@ Web development is complex and so see the big picture and decide where do you wa
 
 If you want to be a web developer:
 
-1. **Get involved in the community**  
+- **Get involved in the community:**  
   Use RRS reader and add Jeffrey Zeldman, Molly Holzschlag, Jeremy Keith, Eric Meyer, Bryan Veloso, Jason Kottke, Ben Alman, Paul Irish, Rebecca Murphy, Jonathan Snook. Follow them on Twitter and their suggested users. Talk to them, read their posts, make comments.
 
-2. **But up some books and read**  
+- **But up some books and read:**  
    Get ePub books because physical technology books get outdated fast. Books like this one you are reading gets updated online for free. Here are some front-end books:
    - [SMACSS](http://smacss.com/) (free version available)
    - [Bulletproof Web Design](http://www.simplebits.com/publications/bulletproof/)
    - [A Book Apart Series](http://www.abookapart.com/)
    - [O'Reilly books](http://oreilly.com/css-html/index.html)
 
-3. **Practice, challenge yourself and work for other people**  
+- **Practice, challenge yourself and work for other people:**  
    Remake existing sites for fun or do non profit work for experience. Doing challenging things like this is the only way for you to grow. Never oversell yourself to clients as unhappy clients upsets everyone including your resume and reputation.
