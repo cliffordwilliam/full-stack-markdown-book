@@ -34,7 +34,7 @@ When learning, your mind will constantly switch between focus mode and diffuse m
 
 Then lastly, to test your understanding, go and teach someone this new thing you just learned. This will reveal knowledge holes that you missed.
 
-## What to do when you`re stuck
+## What to do when you're stuck
 
 Here are tips when you are really stuck:
 

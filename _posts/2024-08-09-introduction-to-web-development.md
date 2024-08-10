@@ -111,7 +111,7 @@ Here you need to learn how to read errors, when to use certain code. Like Phase 
 Tips:
 - You have to build to learn, do not rely on tutorials. The real world does not have tutorials at work.
 - Cooperate with someone else, this makes debugging easier.
-- Learn from other`s code, learn why people do things the way they do and learn what is good and bad code.
+- Learn from other's code, learn why people do things the way they do and learn what is good and bad code.
 - Do small projects constantly in this phase, your goal is experience.
 
 ### Phase 3: The Desert of Despair
@@ -123,7 +123,7 @@ This phase is long and pathless, there are many paths to take but you do not kno
 Your goal here is to keep looking until you get a project to work as expected, these are your real projects and where you start to understand.
 
 Tips:
-- Have a strong goal, do not fall into mirages as you won`t get anywhere.
+- Have a strong goal, do not fall into mirages as you won't get anywhere.
 - Find a strong path to your goal, dig deep and spend time to validate the book or site if it does gets you there.
 - Focus, do not get side tracked learning non related things in this phase.
 
@@ -303,7 +303,7 @@ Here are the qualities that employer looks for when hiring a web developer, some
 - **Excellent knowledge of HTML:**  
   Understand HTML, they do not have knowledge holes.
   
-- **Language / platform-agnostic:**  
+- **Language/platform-agnostic:**  
    Is not tied down to anything. Knows how to use the right tools.
     
 - **Separation of concerns:**  
@@ -341,7 +341,7 @@ This section reference is [here](https://www.freecodecamp.org/news/things-i-wish
 
 You need to have a goal to motivate you. Make website, games, apps, startup business, automate everyday task, improve resume, pass a course, anything.
 
-### There`s nothing mystical about it
+### There's nothing mystical about it
 
 Coding is like learning how to sculpt, there are rules and proper ways to do things. There are techniques, tools, best practices that people had made over the time. There is no such thing as you are not smart enough to code, because coding is as complicated as you make it to be. If you want to make the most complicated thing ever code lets you do that. But good apps does not have to be complicated at all.
 
@@ -349,11 +349,11 @@ Coding is like learning how to sculpt, there are rules and proper ways to do thi
 
 Web developer career is just like any other career, everyday you face new problems, see new error messages to decipher. From junior to seniors we all face this everyday. The only difference is that senior developers have more faith that whatever error they face there is a logical explanation behind it that they can learn to understand. Juniors tend to get intimidated when they see errors.
 
-### Someone will always tell you you`re doing it wrong
+### Someone will always tell you you're doing it wrong
 
 Use tabs, not indent, do not comment code, use comments, do not listen to these and just follow the preferred way that most people do and you are okay. The one true path does not exists, there are only preferences. If someone in your workplace later on tells you to do things in certain way, see if that is what the whole company is doing (the style guide that they adhere to), if not then ignore them.
 
-### Someone will always tell you you`re not a real coder
+### Someone will always tell you you're not a real coder
 
 Just use the right tool to build the cool things that people love (no one cares what tool you used to build it). If someone tells you that real programmers know C, who cares. The reason why people have this mentality is the fear that the programmer title will be meaningless if there is no gate keeping. Use the tools you are happy with, as you get better you naturally move on to something like C.
 
@@ -365,7 +365,7 @@ Who cares about this, spend time actually getting better at programming rather t
 
 No matter what beginner tutorial online you graduated from. The next tutorials usually already expects you to have a high knowledge in programming. The only way to jump the gap is preseverance, be consistent is learning and building things. Even if you barely understand the first time keep at it as one day it will click.
 
-## TechCrunch: Don`t Believe Anyone who Tells you Learning to Code is Easy
+## TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy
 
 This section reference is [here](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
 
@@ -378,7 +378,7 @@ Most people see programming as a clean thing, but it is a actually a very messy 
 Here is a Recursive Recipe for Learning to Program:
 
 1. **Follow tutorials step by step:**  
-  Follow blindly, just like Hunter S. Thompson. Goal is to get a feel for how things are done in this new framework / language.
+  Follow blindly, just like Hunter S. Thompson. Goal is to get a feel for how things are done in this new framework/language.
 
 2. **Rebuild the thing you just made or a slight variation of it:**  
   Do not use the tutorial as much, find out what you do not know.
