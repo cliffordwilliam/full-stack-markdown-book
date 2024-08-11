@@ -103,8 +103,203 @@ Here are some pitfalls and how to avoid them:
 
 ## Conclusion
 
-Learning is challenging, use this page as a way to help you learn anything you want.
+Learning is challenging, use this page as a way to help you learn anything you want. The sections below uses external sources, it is all from Odin Project references. But I do believe that no everyone can study anything they want. No matter how much effort they put into it there are other factors at play for one to study and master something.
+
+## Outiside sources
+
+Sections from here on out are from outside sources.
 
 ## Believe you can get better
 
-TODO
+This secion reference is [here](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
+
+In a high school in Chicago, when students failed a course they got the grade "Not Yet". The grade "Not Yet" focuses on the process rather than the result. Some people had growth mindset and others have fixed mindset. People with growth mindset sees challenges as an opportunity to improve their skillls. While people with fixed mindset sees it as an opportunity to show everyone that they are dumb. We need to have the right prespective where challenges are a good thing, you want to do it so you can improve. Kids from a yound age cheats in school for two reasons, some cheats because they had to take care of their family (no time to study) while others cheat because they know that there is no point in putting effort because they cannot do it. No matter how long it takes it is possible for anyone to study any skill. To make people have the growth mindset we have to explicitly encourage that the process is more important that the result. So praise the effort they put into the process for solving a hard maths question rather than the correct answer. Tell them that when you strain your brain you make stronger neuron connections that increases your skills. Growth mindset is the believe that if you keep at it you will make it no matter how long it take.
+
+## Grit
+
+This section reference is [here](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
+
+Passion, stamina, motivation and preseverance for sticking with your long term goals daily for years, like a marathon you put your all in every step. This is the key to be successful in anything. What makes a sales man outperform their peers? What makes a soldier do better that the rest? What makes a teacher be the best in their campus? It is Grit. This is a thing that is unrelated to anything else, not talent or IQ. Grit is created from growth mindset. An idea developed at Standford University by Carol Dweck.
+
+## You can learn anything
+
+This section reference is [here](https://www.youtube.com/watch?v=O96fE1E-rf8)
+
+We all start at 0, cannot talk or walk or anything. Einstein started not knowing how to count to 10. But we all learn, failing and succeeding, rinse and repeat, each time you get stronger and you keep going knowing that you can improve. Everything in the world is based on something simple that anyone can understand. You can learn anything.
+
+## Coursera's learning how to learn course
+
+This section reference is [here](https://www.youtube.com/watch?v=O96fE1E-rf8)
+
+Diffuse mode is like when you go to the toilet or sleep, you are not thinking of the problem but when you do come back to focus mode new connections are available in your brain neurons that gives you new prespective and angle to solve the issue.
+
+People procrastinnate because it is a normal reaction, when you have a task ahead of you that requires effort, the brain does feel physical pain. You can choose to push through and the pain will ebb away in a minute or two but most people decided to run away and do other things. This is because it is way easier to go to an existing connection in your brain rather than trying to make new ones. iF you keep doing this in your life you do will get into trouble in life.
+
+If you have issues remembering things there is a chance that you are more creative, because you have many ideas when you hear certain things it is difficult to hold what was told and the ideas you had. If you study slower you have an advantage of having a deeper understanding and solid foundation than those who study fast. People who study fast tends to make assumptions and jump to conclusion. Tests are the best for studying, this is why there is homeworks, you need to keep doing it multiple times like how you sing a song multiple times to the point where it flows well in your mind. Look at a page and look away and recall what you just read. This enhances your connection stronger in your brain. Understanding needs to be combined with application to gain mastery.
+
+## Becoming a TOP Success Story
+
+This section reference is [here](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
+
+### A TOP Strategy Guide
+
+Here are strategies that successful students had used in TOP. Covers both hard and soft skills.
+
+### Mindset
+
+#### Get Gritty
+
+Here is a [wikipedia page](https://en.wikipedia.org/wiki/Grit_(personality_trait)) about grit personality trait.
+
+#### Take the time you need
+
+Never rush, rush causes burnout.
+
+### The Discord Server
+
+TOP community is best resource. Find help there, get advice. Understand goals, policies and procedures of the community.
+
+#### Rules and FAQ
+
+Read all the server rules. Read FAQ. It is taken seriously in server to keep professionalism. To make things fair for everyone from around the globe. This prevents misunderstanding and keeps chat friendly.
+
+#### Culture
+
+Study how people interact there before posting. They are forgiving and it is ok not to fit in. Everyone is there to help. Tricks for new comers:
+- Assume positive intent, since tone is lost in text messages. Never assume attacks from others especially when English is not their 1st language.
+- Cool down when upset before asking, hard to assume positive intent when you are upset. Plus no one wants to deal with you when you are upset.
+- Terse messages are not attacks, people send short messages for efficiency.
+- Bot commands is an ok way to communicate. Never assume as attacks. The intention is to remind you on an article to safe time.
+- Be professional and respectful:
+  - No random memes.
+  - Reacts positively not toxic.
+  - Reply in timely manner.
+  - Do not jump to convo that does not concern you.
+  - Do not say things to make others uncomfy.
+  - Colleagues first then friends.
+  - Use proper grammar.
+
+#### Questions
+
+Next lesson will cover more on how to ask questions, but here is a short coverage on how to ask.
+
+- **Be available:**  
+  Figure out every little detail, which one confuses you and use a debugger.
+
+- **Wait:**  
+  Wait around 30 min before asking questions again if no one answered. If no one answers again it is because your question is not effective. Or maybe no one is around to answer during that time. Do not waste people time with bad question.
+  
+- **Ask in proper channel:**  
+  Do not speak over others. Post all of your code when asking a question. GitHub repo or repl.it, codepen, codesandbox and so on. Issue can also be in the context and not in the code itself.
+  
+- **Try to recreate:**  
+  Try to recreate the error in a small isolated env, helps you frame question better this way too. And helps you fix your own issue too.
+  
+- **Thank the people:**  
+  Thank the people helping, people will remember you this way.
+  
+- **Help others:**  
+  Help others too to improve yourself too, improve communication.
+
+Here is a summary from a [guide from Gordon Zhu](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) for asking questions.
+
+Follow these steps to be good at asking questions. Asking good question is important, good question means you get faster answers from others that are more frequent and better. They get taken more seriously and get more respect, matters for your career. Good question saves time, no frustration no conflict, no back-and-forth conversation. You get far in career as people like to work with you, you do not get fired.
+
+1. **Understand your code as best as you can:**  
+  Figure out every little detail, which one confuses you and use a debugger.
+
+2. **Clearly describe the problem:**  
+  Explain context, provide URL, share what you are trying to do, provide timestamp, share where you get stuck. Explain the steps needed to consistently reproduce the problem, clicked 3 buttons in specific order? Works in chrome but not safari? Explain what you expect to see. Explain what you see, share the entire error message, share the line that made the error, weird UI bug? Share the screenshot.
+
+3. **Provide the code to show the issue:**  
+  Isolate the broken part and share that. Do not change the code as someone looks at it.
+
+4. **Make sure the code you shared can reproduce the issue:**  
+  Make sure how you descibe is accurate to how reality is in code. That is the only way someone can help you.
+
+5. **Format code consistently:**  
+  Keep style consistent, so that it is easy to read.
+
+6. **Check typos:**  
+  Stuck? Go back to where it worked and redo from there. For each small addition check if it is still working to find where it does not work. Find typo yourself, do not waste someone else's time to fix typo.
+
+7. **Explain what you did to troubleshoot:**  
+  List hypotheses about the cause then test each one, for each one list down what your attempted solution was. You should figure out the issue yourself by doing this.
+
+8. **Explain what you think the problem is:**  
+  Provide best guess on what issue is based on step 7.
+
+9. **Proofread your question:**  
+  Makes sure you have provided everything. Edit wording for clarity and not confusing. No typo in question as that makes people think you have typo in code.
+
+10. **Send updates and remember that this is not your last question:**  
+  Tell people if you had figured the solution as to not waste others time solving a solved solution. Take time and understand what someone is trying to say to you, they might not be right and verify if their solution works. Thank each person that helped.
+
+11. **The Mindset:**  
+  The mindset refers to the understanding that asking question is a burden. So you want to have put 100% effort in trying to solve your issue and only ask as a last resort. This makes people happy because you do not dump 100% of the burden to the other person you are asking. This is called high performer questions.
+
+### Reading Comprehension
+
+Most info is in texts, improve reading skills, slow down and maintain focus on what you are reading. Go back and reread what you missed. Increase reading capacity so that reading boring texts is easier.
+
+#### Read in order
+
+Read everying and save them as references to read again later. Read more than once. Slow down and focus.
+
+#### Do not take notes
+
+Documentations online are your notes, people wrote them already. No need to rewrite it in your own version. Do not rely 100% on what you write as source of truth. Rely on Google and official docs. Write notes conceptually, collect new info there not documentating.
+
+#### Read first, act later
+
+To never miss anything, read all first so you get the big picture. Then you know what you are trying to do from start to end. You will also know if you did something wrong as you have seen the whole thing before doing it.
+
+#### Videos learning
+
+Watching videos is not easier, it seems easy because you can ignore the video and just copy paste blindly. What you want is to engage your brain at every step, learning style is a myth, This is the summary from this [study about learning style](https://poorvucenter.yale.edu/LearningStylesMyth). Just study from reading, that is enough.
+
+No scientific evidence backs this, these are just preferences, they do not make them study better. Learning style is a neuromyth.
+
+Just study from reading.
+
+### Learning Code
+
+Focus on constant improvement rather than perfection.
+
+#### Focus on the assignment
+
+If the focus is to understand concept A, then do not spend extra time working on it if you understood concept A already. This keeps things fresh and you learn more things. Keep going and not stagnant.
+
+#### Run every code
+
+Examples are to be run and played with. Pick it apart and see how it ticks. To the point where you understand 100%. Always test your assumptions and make sure that it is true. That is how you check if you understand it 100% or not. If your assumption is wrong or you did not check your assumptions at all and move on, this creates knowledge holes.
+
+#### Avoid rabbit holes
+
+See the big picture and list down all that is needed to know then pick the ones that you need to know right now and study that instead. You visit the other ones later in the future. This is so that you know what is possible in this topic and what to study next.
+
+#### Plan on macro level
+
+Plan on the big picture first of a project, deal with the detailed problems later on. Never overplan and keep things simple. Code later, plan first.
+
+#### Do not see solution if not done
+
+Struggle and finding out the solution yourself is learning. If you see solution you will not learn problem solving skill and you will not remember it as strong. In real world there is no solutions to cheat from.
+
+#### Read other's code
+
+Spend significant amount of time reading other's code and understand how they think. Read good bad and everything. So that you know the difference of something that is easy and hard to read. Understand what goes in someone's mind, play and tweak their code. Read and review it, know why someone decided to do things in a certain way.
+
+#### Refactor your code
+
+When you are done with your project and looked at other's code. Refactor your code using what you have learned. Spend time using effective things you learned to know why people use it and how it was found. Do not spend too much time on this. Never use something that you do not understand, understand it first before you use it. Do not throw away something entirely instead refactor it.
+
+#### Write your unit tests
+
+This is important, this reduces debugging and makes you professional for potential employer.
+
+#### Use Git
+
+Makes you look pro and easy to share code. Write good commit messages. Here is the [reference](https://cbea.ms/git-commit/) to this section.
+
+TODO: Read the above and also the rest of the additional materials
