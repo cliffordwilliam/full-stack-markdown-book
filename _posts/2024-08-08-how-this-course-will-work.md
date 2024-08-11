@@ -37,7 +37,7 @@ Topics covered here are entry level used for later courses in full-stack JavaScr
 
 Open-source community since 2013, provides free knowledge to be an employable and self sufficient web developer. It uses the best resources that is maintained to stay up to date by professionals volunteers. Odin provides real world experience in building sites and thus trains learners problem solving skills.
 
-## Faq Odin
+## FAQ Odin
 
 - **What technologies will I learn?**  
   HTML, CSS, JavaScript, Git, Deployment, and more.
