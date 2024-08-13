@@ -300,6 +300,212 @@ This is important, this reduces debugging and makes you professional for potenti
 
 #### Use Git
 
-Makes you look pro and easy to share code. Write good commit messages. Here is the [reference](https://cbea.ms/git-commit/) to this section.
+Makes you look pro and easy to share code. Write good commit messages. Here is the [reference](https://cbea.ms/git-commit/) to this section. How to write a git commit message.
 
-TODO: Read the above and also the rest of the additional materials
+Here are great commit messages examples:
+- [Linux kernel](https://github.com/torvalds/linux/commits/master).
+- [Git](https://github.com/git/git/commits/main).
+- [Spring Boot](https://github.com/spring-projects/spring-boot/commits/main).
+- [Tim Pope](https://github.com/tpope/vim-pathogen/commits/master).
+
+You want to write:
+- Consistent lengths.
+- Consistent form.
+- Concise.
+
+You want to tell *context* about a change. `diff` tells you *what* changed, commit messages tells you `why`. Peter Hutterer [makes this point](http://who-t.blogspot.co.at/2009/12/on-commit-messages.html):
+
+> Re-establishing the context of a piece of code is wasteful. We can’t avoid it completely, so our efforts should go to reducing it [as much] as possible. Commit messages can do exactly that and as a result, a commit message shows whether a developer is a good collaborator.
+
+Commit messages are for maintainability, so that anyone understands what happened in the past. **This section covers writing individual commit messages**. Stick to one convention of writing, a convention defines these 3 things:
+
+1. **Style:**  
+  Markup syntax, wrap margins, grammar, capitalization, punctuation. Make it simple and easy to read.
+
+2. **Content:**  
+   What should the body contain?
+
+3. **Metadata:**  
+   How to refer metadata? Pull request number, etc.
+
+There are well-established conventions already, no need to re-invent. Follow the rules below to commit like a pro.
+
+```
+Summarize changes in around 50 characters or less
+
+More detailed explanatory text, if necessary. Wrap it to about 72
+characters or so. In some contexts, the first line is treated as the
+subject of the commit and the rest of the text as the body. The
+blank line separating the summary from the body is critical (unless
+you omit the body entirely); various tools like `log`, `shortlog`
+and `rebase` can get confused if you run the two together.
+
+Explain the problem that this commit is solving. Focus on why you
+are making this change as opposed to how (the code explains that).
+Are there side effects or other unintuitive consequences of this
+change? Here's the place to explain them.
+
+Further paragraphs come after blank lines.
+
+ - Bullet points are okay, too
+
+ - Typically a hyphen or asterisk is used for the bullet, preceded
+   by a single space, with blank lines in between, but conventions
+   vary here
+
+If you use an issue tracker, put references to them at the bottom,
+like this:
+
+Resolves: #123
+See also: #456, #789
+```
+
+The following references are here:
+- http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+- https://www.git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines
+- https://github.com/torvalds/subsurface-for-dirk/blob/master/README.md#contributing
+- http://who-t.blogspot.co.at/2009/12/on-commit-messages.html
+- https://github.com/erlang/otp/wiki/writing-good-commit-messages
+- https://github.com/spring-projects/spring-framework/blob/30bce7/CONTRIBUTING.md#format-commit-messages
+
+Here are the rules:
+
+1. **Separate subject from body with a blank line:**  
+   From `git commit` manpage:  
+   > Though not required, it’s a good idea to begin the commit message with a single short (less than 50 character) line summarizing the change, followed by a blank line and then a more thorough description. The text up to the first blank line in a commit message is treated as the commit title, and that title is used throughout Git. For example, Git-format-patch(1) turns a commit into email, and it uses the title on the Subject line and the rest of the commit in the body.  
+   
+   A body is not always needed; if one line suffices, then use it, use the `-m` option in `git commit`:
+   ```
+   $ git commit -m"Fix typo in introduction to user guide"
+   
+   Fix typo in introduction to user guide
+   ```
+   Use git `git show`, `git diff` or `git log -p` to see what the fix is.
+
+   Use text editor to write commit messages that has bodies. Use [this](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) to set up an editor for use with Git.
+
+   You need to use the blank line between the subject line and body in order for Git to know where the subject line and body are.
+
+   Here is how the commit message with bodies look like when you log it:
+
+   ```
+   $ git log
+   commit 42e769bdf4894310333942ffc5a15151222a87be
+   Author: Kevin Flynn <kevin@flynnsarcade.com>
+   Date:   Fri Jan 01 00:00:00 1982 -0200
+  
+    Derezz the master control program
+  
+    MCP turned out to be evil and had become intent on world domination.
+    This commit throws Tron's disc into MCP (causing its deresolution)
+    and turns it back into a chess game.
+   ```
+
+   Or show the subject line only
+
+   ```
+   $ git log --oneline
+   42e769 Derezz the master control program
+   ```
+
+   Or show the subject line only for 1 user
+
+   ```
+   $ git shortlog
+   Kevin Flynn (1):
+         Derezz the master control program
+  
+   Alan Bradley (1):
+         Introduce security program "Tron"
+  
+   Ed Dillinger (3):
+         Rename chess program to "MCP"
+         Modify chess program
+         Upgrade chess program
+  
+   Walter Gibbs (1):
+         Introduce protoype chess program
+   ```
+
+2. **Limit the subject line to 50 characters:**  
+   50 is not a hard limit, keep subject lines concise around this line for readability:  
+   > Tip: If you`re having a hard time summarizing, you might be committing too many changes at once. Strive for [atomic commits](https://www.freshconsulting.com/atomic-commits/), a topic for a later day.  
+   
+   GitHub's UI knows this convention and will warn you. It truncates at 72 characters with ellipsis. 72 is the hard limit.
+
+3. **Capitalize the subject line:**  
+   Begin all subject lines with capital letter.
+
+4. **Do not end the subject line with a period:**  
+   Using a period waste space, you are only given around 50 chars to work with.
+
+5. **Use the imperative mood in the subject line:**  
+   Meaning, "spoken or written as if giving a command or instruction":
+   - Clean you room
+   - Close the door
+   - Take out the trash
+  
+   This is because Git itself uses the *imperative* whenever it creates a commit for you, `git merge` reads:
+   ```
+   Merge branch `myfeature`
+   ```
+   And so on. So use imperative to follow Git`s convention:
+   - Refactor subsystem X for readability
+   - Update getting started documentation
+   - Remove deprecated methods
+   - Release version 1.0,0
+  
+   So do not use the *indicative mood* like "Fixed bug with Y". To check if imperative mood is used correctly, follow this rule:
+
+   - If applied, this commit will *your subject line here*
+
+   For example:
+
+   - If applied, this commit will *refactor subsystem X for readability*
+     
+   > Remember: Use of the imperative is important only in the subject line. You can relax this restriction when you're writing the body.
+
+6. **Wrap the body at 72 characters:**  
+   Git does not wrap automatically, you wrap manually.
+
+   You want to wrap at 72 characters. Use a text editor to help you do this, it can help you auto wrap.
+
+7. **Use the body to explain what and why vs how:**  
+   This [commit from Bitcoin Core](https://github.com/bitcoin/bitcoin/commit/eb0b56b19017ab5c16c745e6da39c53126924ed6) is a great example of a body:  
+   > Tip: If you`re having a hard time summarizing, you might be committing too many changes at once. Strive for [atomic commits](https://www.freshconsulting.com/atomic-commits/), a topic for a later day.  
+   
+   A body is not always needed; if one line suffices, then use it, use the `-m` option in `git commit`:
+   ```
+   commit eb0b56b19017ab5c16c745e6da39c53126924ed6
+   Author: Pieter Wuille <pieter.wuille@gmail.com>
+   Date:   Fri Aug 1 22:57:55 2014 +0200
+  
+      Simplify serialize.h's exception handling
+  
+      Remove the 'state' and 'exceptmask' from serialize.h's stream
+      implementations, as well as related methods.
+  
+      As exceptmask always included 'failbit', and setstate was always
+      called with bits = failbit, all it did was immediately raise an
+      exception. Get rid of those variables, and replace the setstate
+      with direct exception throwing (which also removes some dead
+      code).
+  
+      As a result, good() is never reached after a failure (there are
+      only 2 calls, one of which is in tests), and can just be replaced
+      by !eof().
+  
+      fail(), clear(n) and exceptions() are just never called. Delete
+      them.
+   ```
+   Good context saves people from trying to figure out what it is about.
+
+   Most of the time you can leave out the details how changes were made. Code is self-explanatory, code can have comments too for that. So the body should focus on telling why you made the change, how it was before and what is wrong with it and how it is now and why you changed it this way.
+
+##### Love the command line for Git
+
+IDE integration for Git is not as good. Command line has the full power of Git.
+
+##### Read Pro Git
+
+Read [Pro Git](https://git-scm.com/book/en/v2) book, it is free online for free.
