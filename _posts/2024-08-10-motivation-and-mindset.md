@@ -509,3 +509,27 @@ IDE integration for Git is not as good. Command line has the full power of Git.
 ##### Read Pro Git
 
 Read [Pro Git](https://git-scm.com/book/en/v2) book, it is free online for free.
+
+#### Strategically building your portfolio
+
+Odin Project provides opportunities to make really good portfolios, not certificates. Focus on non foundation projects for portfolios.
+
+#### Pick projects you like and use them as portfolio fodder
+
+Pick the ones you like for your portfolio. Make it your own and go the extra miles.
+
+#### Always spend extra time on capstone projects
+
+Spend most time on projects at the end for each course. Use it to remind yourself what the course covers.
+
+#### Use git properly
+
+Experimenting, and moving through your histories is super easy with Git. You will use this everyday at work anyways.
+
+### Applying to jobs
+
+This is the goal for most Odinites.
+
+#### Avoid freelancing
+
+The Odin Project is not enough for freelancing. Freelancing requires more knowledge. TODO
