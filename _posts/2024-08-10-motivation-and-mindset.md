@@ -584,4 +584,107 @@ Success in anything requires more than just knowledge and talent, it needs actio
 
 ### A few tips on staying motivated
 
-TODO
+Motivation is finite. The "Do Something" is one way to replenish and get you starting. Here are more tips to stay motivated in the long run:
+
+#### Develop a ritual
+
+You set a place and time to do something. You set the ritual in motion and let inertia do the rest. Keep doing it and it will become an important part of your life. There is no correct ritual, no need to follow others just make your own.
+
+#### Cut distractions out of your life
+
+Social medias, read [this](https://markmanson.net/attention-diet) about the [dark side of technologies](https://markmanson.net/internet). Part of the dark side is distraction, and it is harmful. It gives small burst of dopamine that is meaningless but fun in the moment and sucks out motivation from the meaningfull things that is not fun in the moment. Read this to help you out of distractions:
+
+- [Indistractable](https://amzn.to/2Q1O8Pr) by Nir Eyal
+- [Digital Minimalism](https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515) by Cal Newport
+- [Stillness Is the Key](https://amzn.to/2t2L78s) by Ryan Holiday
+
+#### Uncover the real reasons for your lack of motivation
+
+If you are still having trouble with motivation after all the above, you need to figure out what is wrong with you. If you hate your current job and cannot be motivated at work then [get a new one](https://markmanson.net/how-to-find-the-perfect-career). If you do not like to exercise then you need to fix your belief about your body, make yourself understand that exercising is important. Address the uncomfortable emotions, that is how you grow as people, turn into your discomfort as your motivation.
+
+## Learning to code when it gets dark
+
+This section reference is [here](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
+
+### A Handful of Useful Mind Tricks Addressing Your Innermost Fears
+
+How to stay on track learning when you feel that there is too much. There is this lingering feeling that says maybe it is not for me, this is called the "Resistance" by Steven Pressfield in his book [The War of Art](http://www.amazon.com/War-Art-Through-Creative-Battles/dp/1936891026). Here are techniques to remove the "Resistance".
+
+#### Realize that Everyone Experiences Resistance
+
+Many people think that if it did not go smoothly at first for them, then it is not for them. But in reality everyone faces difficulties that you do not know. Do not judge others. Some people finds coding easier than others but they should find 10 other things that they wish they are good at.
+
+So stop thinking about the difficulties, see them as challenges that make you stronger. Everyone experiences this in any learning journey. It is painful to push your limits. When you feel "Resistance", you are on the right path to growth.
+
+#### Every Day counts
+
+Do be intimidated at the 10% of successful developers, there is no huge wall between you and them. You do not look at pro guitarist and think that you can do that in a month. Remember that everyone struggled to get to where they are. Learning anything is not easy and it takes a long time.
+
+Imagine how many people out there who started coding on the same day as you and had given up to stop the pain of learning. Each time you go further studying is each time you won.
+
+#### Go All In
+
+You need a goal to work towards that will keep you going. It will make it easier too on what topics to specialize in as you study. Concentrate your effort into 1 thing, spend as much time as you can on coding. Even if you can only manage to do 1 hour per day. Make the most out of your day to learn, if you feel tired then give yourself a rest. Always make time for it, spreading your time will discourage you as you feel that you are not progressing.
+
+#### You are smart enough
+
+There are many kinds of people in the tech industry, it does not matter when you start studying it. It is never too late to study anything. Do deliberate practive long enough, you can get anywhere you want. Deliberately understand problems in code, solve problems as best you can, reading other people`s code to see how they solve their problem, and refactor your old code.
+
+You need resilience and grit and not IQ to be successful.
+
+Read this self-image and how it relates to success. [Psycho-Cybernetics by Maxwell Maltz](http://www.amazon.com/Psycho-Cybernetics-New-More-Living-Life/dp/0671700758).
+
+#### Don't Spray Your Effort Around
+
+Stay on track on whatever it is you are stuyding, but if you get bored try something else for awhile to refresh yourself, but do not forget to go back on track. Focus on track to get to your goal, sidetrack once in awhile to refresh your mind. Be good at one thing first then try other things.
+
+#### Consistency over Quantity
+
+Do it slow but consistent, 15 minutes everyday is better than 10 hours in the weekend. You remember more with daily and learn faster too. Code at least 30 minutes a day.
+
+#### Don't trick yourself that you have to go back into University or bootcamp to become a developer
+
+You can study on your own. Spend time learning yourself with free resources online.
+
+#### Find Like-Minded People
+
+Go to hackatons and other tech events, meet more people and learn from them. See that people in tech are all from different backgrounds. Ask the questions you wanted to ask there with projects or anything. Events like this are for everyone even beginners. Get a sense of community, meet and learn to code together.
+
+#### Read other people's Coding Origin Stories
+
+This gives you information and motivations. You learn their life situations and what resources they used. Spend a month reading this to figure out what you want your goal is to be.
+
+## Improve typing speed here
+
+- [typing.com](https://www.typing.com/)
+- [TypingClub.com](https://www.typingclub.com/)
+- [MonkeyType](https://monkeytype.com/)
+
+## Why Procrastinators Procrastinate
+
+This section reference is [here](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html)
+
+Procrastination is the action of delaying something. Here are tips for real procrastinators, for those that cannot stop doing it. Those who do papers 1 night before submission. The reason why procrastinators procrastinate so much is because has an Instant Gratification Monkey living with them in their brain. The monkey made it impossible for the brain to do the job, they always take charge in decision making. It focuses on the present only, maximizing pleasure of current moment. Why continue working when I can play now, that is a monkey life not a human life. Brain has a hard time to take control and feels bad each time the monkey takes control.
+
+The monkey puts you in a dark playground. It is where play is all the time when it is not supposed to. It is not fun and you feel guilty in it. When your brain and monkey is at a stalemate you ends up in a weird place where you throws a ball up and down.
+
+Procrastinators still can get work done by having The Panic Monster. That monster scares away the monkey. The monster only appears when the deadline gets too close, there is public embarrassment, career disaster or something else. This is how lazy people stay up all night to work non stop on a paper. There are some procrastinators who does not even respond to the monster, or they join the monkey into hiding instead. Here are why you have to change:
+
+1. **It's unpleasant:**  
+   You get more fun after long day of work.
+
+2. **The procrastinator sells himself short:**  
+   You underachieve or fails to reach your potential, this eats away over time and fulls you with regret.
+
+3. **The Have-To-Dos may happen, but not the Want-To-Dos:**  
+   There are things that you miss like getting in shape, cooking, learning to play guitar, writing a book, reading, and so on never happens. These are things that makes you happier that you do not do.
+
+Here is a [video](https://www.youtube.com/watch?v=arj7oStGLkU&feature=youtu.be) from the same author.
+
+## 100 Days of Code
+
+Check [this](https://www.100daysofcode.com/) out as a way to motivate yourself.
+
+## Learning How to Learn
+
+Check [this](https://www.coursera.org/learn/learning-how-to-learn) out too.
