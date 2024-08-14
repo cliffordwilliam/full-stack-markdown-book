@@ -532,4 +532,56 @@ This is the goal for most Odinites.
 
 #### Avoid freelancing
 
-The Odin Project is not enough for freelancing. Freelancing requires more knowledge. TODO
+Freelancing is very hard without using CMS like Wordpress. Fresh Odin Project graduates are not ready to freelance a real scalable and safe website. You need to learn how to do the extra knowledge first from working at a company. Learning from failures from freelance job is risky as it has lawsuits. Freelancing requires time investment in marketing, financial and other business representatives. Spend time working on becoming a good developer to be hired as a professional instead unless you are already good at running your own business.
+
+#### Don't apply too early
+
+Spend time learning more skills after graduating. Applying when you are not ready has a low chance for getting accepted anywhere. Companies that do accept applicants who are not ready are usually predatory.
+
+#### Check out the getting-hired section when you're ready
+
+Read the getting-hired section here and Discord as you are applying later.
+
+#### Look at already reviewed resumes
+
+Find these in Discord, in the getting-hired channels look for a pin that teaches you how to find reviewed resumes. Or use the search in that channel. Use those as reference for you resume, read the feedbacks and apply it to yours.
+
+#### Ask for a resume review
+
+Post your resume for review, use screenshot, block address and phone number. Listen to feedback and post the updated version to get more feedback.
+
+### Strategically building your portfolio
+
+Odin Project does not have certificates, it provides you opportunity to create a good portfolio. But not all projects are for portfolio.
+
+#### Foundations isnt't a strong portfolio generator
+
+Do not spend too much time in the foundation course projects. You will create more impressive projects after foundation. Save more time and energy for that instead.
+
+### Conclusion
+
+The people in Odin Projects want you to succeed. These are professionals who have successful careers from different backgrounds.
+
+## Managing inspiration and motivation
+
+This section reference is [here](https://markmanson.net/how-to-get-motivated)
+
+### Motication and Taking Action
+
+> Action isn't just the effect of motivation, but also the cause of it
+
+People do something when they are motivated, they are motivated when they get emotional inspiration like when you see a pro guitarist. But there is a problem with this framework, because most of the time it is negative emotions are the things that should cause us to take action.
+
+You need to fix your relationship with your mother and the emotional inspirations are hurt and avoidance. That motivates you to not fix it instead of fixing it.
+
+### How to get motivated: the "do something" principle
+
+Motivation is an endless loop, your actions create further emotional reactions that motivates you to your future. So the correct mindset is action first, inspiration next then motivation. So if you need motivation, do something, then use the reaction you get from there to motivate you to do something.
+
+It is found that when people do something, it would motivate them to do something else. Force yourself to do something small, that makes the bigger things seem easier to do.
+
+Success in anything requires more than just knowledge and talent, it needs action. Because without action, you will never be successful at anything.
+
+### A few tips on staying motivated
+
+TODO
