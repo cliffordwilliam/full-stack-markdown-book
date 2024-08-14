@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "Asking For Help"
+---
+
+Lesson contents:
+
+* TOC
+{:toc}
+
 ## Introduction
 
 Asking questions effectively is important in the technical side of things. You need to have a well formed question and provide as much context as possible to get the most out of asking question. You help others help you. Here are the ways to ask effective questions in a technical setting.
