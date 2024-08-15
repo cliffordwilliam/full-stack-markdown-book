@@ -37,6 +37,10 @@ Jangan masuk ati kalo orang nanya lebih detail.
 
 Some things may seem obvious to you but most of the time it is not, so even the most trivial thing does have a significant impact on other things. This is because experts know a lot more on the small things that it does matter. So when people asks for more context just give it to them.
 
+## Outside sources
+
+Section from here on out are from outside sources.
+
 ## Do not ask to ask, Just ask
 
 Do not ask Any Java experts around? This is asking others to take responsibility because if they are mistaken they they are not an expert right. This is also bad since you filter out others from answering. And this is also lazy, if you are not willing to put in the work in asking then others will not put in the work to answering. Also being more explicit on what you are asking can attract interest from others that in turn invites more people to answer your question.
@@ -54,6 +58,30 @@ Do not get stuck thinking that the solution you think of is the one and only. In
 #### Do your own research
 
 Before asking do your own research and take time to prepare the question. The more time you invest the easier for others to help you.
+
+#### Help yourself
+
+You can solve your own problem you just lack experience on where and what to look.
+
+This section reference is [here](https://www.theodinproject.com/guides/community/before_asking)
+
+Always put 100% effort and make asking as a last resort, you want to be independent.
+
+Exercises here forces you to research yourself, this is how we do things at work.
+
+Break the problem down into small pieces and write the pseudo code.
+
+Then research the small pieces problems with google. Here is how to use google to solve programming questions, the reference is [here](https://old.codinginflow.com/google-programming-questions).
+
+Do not limit yourself to this tip, find more on how to better use Google yourself.
+
+Say you are learning a new concept in Android, get general idea like what is this about? What is it used for? How do people use it in code? What is the common problems people had with it? What is the recent changes? Typing **Android [topic]** and **Android [topic] tutorial**. Visit the documentations that appears near the top and see the part you need. Then read lots blog posts and tutorials about it. Medium blog posts have better quality but not all are good. Do not use 1 source only, so that you get to see different approaches from different people.
+
+Next you narrow the time span, as things get outdated fast in programming. Google search with time span set to "last year" in the "Tools" menu under the search box. This is up to date enough. If there are few results then use 2 or 3 years. Skip this if you are looking for core concepts, basic things that does not change. Only do this to things that gets updated.
+
+You can use quotation marks to search for specific phrases, do this after you get a better idea after diving into a topic. This will search for that exact phrase. E.g. when you search Coding in Flow, it will results with things that has either the word coding or flow in it or even related words like programming. If you want to know the proper naming convention for key constant, using *SharedPreference key constant naming convention* will not work well. This is a very specific topic where it is unlikey for someone to write a blog about it. But you know in Java we use "static final" to declare a constant so *SharedPreferences "static final String"* will get you want you want. Use Ctrl + F in a page to jump for the hit word again.
+
+TODO
 
 ### Prepare your question
 
