@@ -10,30 +10,27 @@ Lesson contents:
 
 ## Introduction
 
-Asking questions effectively is important in the technical side of things. You need to have a well formed question and provide as much context as possible to get the most out of asking question. You help others help you. Here are the ways to ask effective questions in a technical setting.
+When asking programming questions, your questions must be well-formed and has as much context as needed to get the most out of it. Here we discuss how to ask programming questions effectively.
 
 ## Lesson overview
 
-- Techniques to ask effective questions
-- What bad questions are
+- Techniques for asking programming questions.
+- How to avoid asking bad questions.
+- Be able to ask good programming questions.
 
 ## Tips for getting the best help possible
 
 ### Always provide your code and the surrounding context
 
-Provide as much context as possible like your code and error messages. Then point people into the specific issue like the line number or certain function. This avoid back and forth questions, which is frustrating and you get good helpful answer.
+Provide as much context as possible like your code, error messages and more. Then point the specific issue like the line number or certain function. This avoid back and forth questions and frustration. The more context you add, the better answer you get.
 
 ### Ask about the problem at hand, not the solution itself
 
-Ask about the problem, not the solution. You figure the solution yourself, instead ask how to do a certain specific thing.
-
-Ask how to do something rather than what is the answer is, you figure the solution yourself. You want to ask guidance and then you look for the answer yourself. Share what you have tried too, this helps others to not suggest a solution that you have tried and also let others work from somewhere rather than having to discuss the solution from 0.
-
-It is fine to tell others that you are stuck. Then ask where you can research to get unstuck. Show others you pseudo code so they know your line of thought. All in all be able to research yourself.
+Do not ask for the answer, ask on a specific thing that you are trying to do. Share your attempt so that people know what you have tried so they will not suggest the same thing and does not have to start from 0. Or if you are really stuck, you can let people know too and they will tell you what to research on to help you start. When you are really stuck you can also share your pseudo code to share your current thought process.
 
 ### Don't take asking for more context to heart
 
-Jangan masuk ati kalo orang nanya lebih detail.
+Jangan masuk ati kalo orang minta detail lebih.
 
 Some things may seem obvious to you but most of the time it is not, so even the most trivial thing does have a significant impact on other things. This is because experts know a lot more on the small things that it does matter. So when people asks for more context just give it to them.
 
