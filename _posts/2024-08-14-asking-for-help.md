@@ -40,9 +40,13 @@ Section from here on out are from outside sources.
 
 ## Do not ask to ask, Just ask
 
+This section reference is [here](https://dontasktoask.com/)
+
 Do not ask Any Java experts around? This is asking others to take responsibility because if they are mistaken they they are not an expert right. This is also bad since you filter out others from answering. And this is also lazy, if you are not willing to put in the work in asking then others will not put in the work to answering. Also being more explicit on what you are asking can attract interest from others that in turn invites more people to answer your question.
 
 ## XY Problem
+
+This section reference is [here](https://xyproblem.info/)
 
 This is when you ask for your attempted solution rather than the actual issue. Doing this wastes to much time and energy for everyone. Do not ask on how to do a certain solution that you come up with as others will find it odd rather just ask on the issue at hand. Because others will spend time trying to make your odd solution work only to realize that there is a more easier common solution to the real issue.
 
