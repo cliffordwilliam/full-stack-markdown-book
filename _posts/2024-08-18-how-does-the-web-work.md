@@ -68,8 +68,163 @@ What keeps request packages from going to the wrong places? Solution is IP and r
 
 How does the internet works? Data you request may come from data centers, a building filled with servers. Like Google data center. An easy way to transfer data from a server to your commputer is to use sattellites, signal can be sent to satellites via antenae, then satellite send signal to your machine via another antenna near to you. This is not a good idea, this is because. 22000 miles above the Earth equator, so data have to cover 44000 miles. This long distance causes long delay, which is not suitable for everyday uses. So instead of satellites data travel via optical fiber cables. These cables are underground and connects server together. Clients are connected to either router or cellular data towers. But either one of those are connected to the optical fibre cables. Any resources like pages or videos are all stored in server solid-state device SSD as the server internal memory. Now how to transfer data in server SSD to your computer using the complex netweork of optic fiber cable? We need to know that any device that is connected to the internet has an IP address. Like a home address, it is unique to each home, that is how letters reach your home correctly. IP is how data reaches correct places. ISP decides on your machine IP address, you can see it in your machine settings. Server also has IP address, so to request a page or video from a server, you just need to know the server IP address, since the addresses are hard to remember we use domain names, these names corresponds to the IP addresses. 1 server can store multiple websites, so 1 IP address for that server is not enough to distinguish between the websites, we need to access them with host headers to uniquely identify the sites. But huge websites like youtube will dedicate 1 data center infrastructure, one building and all of its server inside of it to host youtube website only. To access the internet we use domain name and not the IP addresses, where did the domain gets translated into the correct IP? There are special servers in the internet called DNS server. It is like a phone book, it maps domain to IP. ISP or other organizations manages the DNS server. This is how the whole thing works. You request a domain name to the browser, the browser now sends a request to the DNS to get the right IP. Then the browser forwards the request to the data center that has the mapped IP. Data is sent back from server via optical fiber cables, light pulses, 1000 miles to reach destination, mountains and under the sea, there are companies that maintain these cable networks. The cables are laid down with ships, they use a plow that both creates the trench and places the cable in it. This light is carried into phone towers or router and then to your machines. Router and phone cell tower converts the light into electrical signals. You can use ethernet cable to get the data or wirelessly. Cell tower converts the light pulse into electromagnetic waves that your phone then receives. There are organizations that takes care of IP address assignments, domain names registrations, these are all managed by ICAAN in USA. Internet Corporation for Assigned Names and Number. Internet hardware is faster in comparison to cellular and landline communication technologies. When data is transfered, data in forms of 0 and 1 are chopped into packages. Assuming we chop the whole 1 and 0 into 3 15 rows of 6 bits. Each packages has the sequence number and IP addresses. Each packages takes different path and they all take the best route in real time. When it reaches your phone the packages are re-assebled using their sequence number. If some packages failed to reach your phone then an awknowledgement is sent from phone to server to resend that lost package. In order for every server to send data the same way in the whole world, to ensure that it reaches the right destination using the internet hardware, we have a protocol. It is the rules for how data to packets are converted, and how and what are the metadata needed for the source and destination needed to be included in the packages. TCP/IP, http/https, RTP for transport data, web access and live video respectively. This also includes the rules for how the routers manage the packages and where to route them to. Different app different protocols based on what resources they are trying to send.
 
-## Deeper dive
+### Deeper dive
 
-### A simple network
+#### A simple network
+
+For modern computers to communicate to each other they need to be linked physically with [ethernet cable](https://en.wikipedia.org/wiki/Ethernet_crossover_cable) or wirelessly with [Wi-Fi](https://en.wikipedia.org/wiki/WiFi) or [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth):
+
+- Ethernet: connect two devices of the same type.
+- Wi-Fi: family of wireless network protocols based on the IEEE 802.11 family of standards, which are commonly used for local area networking.
+- Bluetooth: short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks (PANs)
+
+You can use any of the above to connect more than 2 computers. But it gets complicated when you try to connect more than 10 computers that way.
+
+IMG HERE
+
+#### A network of networks
+
+To solve the above, we use a tiny computer called a router. All computers are now connected to this router, and the router only job is to make sure that data sent from 1 computer reaches the correct target. This increases scalability, if the router gets over populated we can introduce another router and then just connect 1 router to another router. This scales infinitely.
+
+IMG HERE
+
+But the above works for 1 building, like your home. So how to connect this to your friends home? We use existing cable infrastructures like the telephone infrastructure, since it already connects your house with anyone in the world. So connect your router network to it we use modem. Modem converts your router network data format to telephone data format.
+
+After connecting to the telephone infrastructure, we connect to Internet Service Provider (ISP) network, companies that have special routers that connects to other ISP routers.
+
+The above explains what the Internet is, an infrastructure of networks, from your home network, to phone network then to ISP.
+
+IMG HERE
+
+#### Finding computers
+
+Any computer linked to a network, including the internet network, has a unique IP address, Internet Protocol address. Its bits separated by dots, like hex color. `192.0.2.172`.
+
+To remember the IP easier, we have alias for IP addresses called domain name. So `google.com` is the domain name **used on top of** `142.250.190.78` IP address. (IP address may change as time goes by so that may not be accurate at the time of reading this)
+
+### Internet and the web
+
+Internet is the physical infrastructure hardware, where the Web is the service software that uses it. The Web comprises of the Web browser that lets you make request and receive data from other computer connected to the hardware Internet. The Web also comprises of the Web servers computer software that lets it understand your request and be able to respond accordingly. There are many parts to it but Internet and the Web are not the same thing.
+
+There are other services on top of the Internet other than just the Web, such as email and [IRC](https://developer.mozilla.org/en-US/docs/Glossary/IRC).
+
+### Intranets and Extranets
+
+Intranets are private network, like a company may host resources for their employees only. Hosted things may be web pages, drives data, discussion boards like forums.
+
+While extranets only difference is its limitation scope, it can allow access for multiple organizations, clients, stakeholders and so on.
+
+Both uses the same infrastructure that the internet uses, same protocols too. So even if you are not physically nearby, as long as you are authorized you can access it.
+
+## Differences between a web page, a web server, and a serach engine
+
+This section reference is [here](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines)
+
+Here we discuss what web pages are, websites, web servers and search engines. Here are the right ways to use the terms / jargons.
+
+### Summary
+
+Here are the [glossary](https://developer.mozilla.org/en-US/docs/Glossary) for the rest of the jargons. Here are the common ones that you need to know, do not mix them up. Most people including the media tends to use them incorrectly.
+
+- **Web page**  
+  This is also knows as pages, it refers to HTML, CSS and JS. Those 3 are instruction for the browser to draw the page on the browser window.
+
+- **Website**  
+  This is like a book, a book is made out of many pages. You can navigate around the book pages by links inside the page. Website is also known as site. You know a page belong to a certain book if they share the same domain. If you request for the domain name alone in the URL, it will usually give you the homepage.
+
+- **Web server**  
+  This is a type of computer that sole purpose is to store data and serve data. Also known as server. It stores both the logic and the resources. A server may host multiple sites. For example, later when you host your website on Vercel, you are actually sharing the same free rent server space with other people. Each app in there are isolated from one another and given a unique header that specify the unique domain to uniquely identify each app. So other make requests to the same infrastructure but different apps.
+
+- **Search engine**  
+  Browser is a software, clients uses this. This software is like your Microsoft Word, it can open document. But the document / instruction that it opens are webpages which are made with HTML, CSS and JS (it can also open other things like images and pdf but that is not considered a webpage). But it has an added feature where it can make request over the internet to other server for their stored pages too. There are special websites that is part of the Web service called Search engine. These have a page with a search input where you can request for other pages and it will list it for you in another page. Like an assistant that finds book for you in the receptionist table instead having you to go find the books yourself. Google, Bing, Yahoo, or DuckDuckGo. So think of it like a webapp like wikipedia, in there you can search different wiki pages since the app stores all of its wiki pages. But search engines stores indexes of all websites and is able to do the same search on that instead. Read on the details yourself. So when you open a browser it is possible for it to render nothing, but modern ones will immediately request for the default search engine for convenience. Use [this](https://www.whatsmybrowser.org/) to find out what web browser you are using.
+
+Do take note that URL is called Uniform Resource Locator. This is the unique address for resources like pages. So when you request a page like this `https:/example.com/page`, `https` is the protocol, `example.com` is the domain, `/page` is the resource path.
+
+HTTPS is mostly uses because it has secure rules for communication between client and servers. HTTPS is **Hypertext Transfer Protocol Secure**, secure version of HTTP (data exchange protocol the Web uses). HTTPS encrypts your data during transfer, uses **SSL/TLS**, so even if someone taps into the phone line they cannot read the data without the right encryption key. There are other details about this you can read yourself later. But know that **SSL/TLS certificates** is used for ensuring that you are who you said you are, to prevent someone else from pretending to be you and let others know if an impostor has been responding in your place as a server.
+
+## How different parts of the web interacts with each other
+
+The reference for this section is [here](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers)
+
+This is a simplified view of what happens when you view a page in a browser. This knowledge is good for fundamental understanding.
+
+### Clients and servers
+
+Computers in the Internet network falls under 2 category. Clients and Servers.
+
+- **Clients**  
+  This refers to the computer or softwares that makes requests over the Web to servers.
+
+- **Servers**  
+  This refers to computers that stores resources and the one that sends a copy of these resources to clients that made the request.
+
+### The other parts of the toolbox
+
+There are other parts involved in data transfer. Imagine the Web is a road, on one end is the client and on the other is server. Your house and the store. Here are what between the two:
+
+- **Internet connection**  
+  The fibre optic cable, this is the road, the medium that lets you move.
+
+- **TCP/IP**  
+  Transmission Control Protocol and Internet Protocol, these are communication rules or how you should cross the road. It defines **how** data and you should travel. The data format rules, collection of these rules are called a protocol. Handles low-level data transmission and network communication, like establish connection before data transfer or acknowledgement to re-send broken packages or a rule to always use IP addresses.
+
+- **DNS**  
+  This is the address book, you know what the name is but where exactly it is? Its address? You use this book to map the name to the address. Browser will use the nearby DNS server to map the domain name you have typed to its correct IP address before sending request. It needs to know the IP to send request.
+
+- **HTTP**  
+  Typertext Transfer Protocol is the rule to how data is sent over the Web. Like what language you use to order the food. This degine web content delivery rules, like how it should not carry over previous request metadata or it is the client that sends requests not server or there can only be 5 methods like GET POST PUT DELETE PATCH and status codes like 200 and so on.
+
+- **Component files**  
+  A page can be rendered by browser with sets of instructions sent from server. It has code files like HTML, CSS and JavaScript. There are also static assets like images, music and videos.
+
+### So what happens, exactly?
+
+When you make a request in your browser:
+
+1. Browser first checks DNS to map domain to IP address, you need IP address first before making a request.
+2. Browser sends request with a protocol (what protocol is used is determined by what you type or what the server and individual host configuration is). The request translate to asking if the server can send a copy of the resource to your client using TCP/IP or other protocol (how it decides it the same, based on what you type and machine configuration on either end).
+3. If the server approve your request, it sends 200 OK code first as header before sending the resource in packets as the response body.
+4. Then the browser assembles the small packets into a complete page and render it to you.
+
+### Order in which component files are parsed
+
+It is important to know the order at which the browser parse HTML, CSS and JavaScript:
+
+1. **DOM Construction**:
+   - The browser begins parsing the HTML document from top to bottom to build the DOM (Document Object Model) tree.
+
+2. **CSS Handling**:
+   - As the browser encounters CSS (`<link>` or `<style>` tags), it starts building the CSSOM (CSS Object Model). 
+     - **Inline CSS** is applied immediately as it is encountered.
+     - **External CSS** is requested and downloaded asynchronously. Once downloaded, it is parsed to build the CSSOM.
+
+3. **JavaScript Execution**:
+   - **Inline JavaScript**: Executes immediately as it is encountered during HTML parsing. This blocks further parsing of HTML until the script is executed.
+   - **Async JavaScript**:
+     - **Download**: The script is downloaded asynchronously, which does not block HTML parsing.
+     - **Execution**: Executes as soon as it is downloaded. This can happen at any time during the parsing process, potentially interrupting the HTML parsing and affecting the DOM and CSSOM before they are fully constructed.
+   - **Defer JavaScript**:
+     - **Download**: The script is downloaded asynchronously, allowing HTML parsing to continue.
+     - **Execution**: Executes only after the entire HTML document has been fully parsed and the DOM is complete. Deferred scripts are executed in the order they appear in the document.
+
+4. **Rendering**:
+   - **Reflow (Layout)**: Once the DOM and CSSOM are combined into the Render Tree, the browser calculates the layout of elements. This includes determining sizes, positions, and visual properties.
+   - **Repaint**: After layout calculations are complete, the browser paints the visual representation of the page, reflecting the final styles and layout.
+
+### DNS explained
+
+IP addresses is like an address but not neccessarily a unique location, it needs it to make request. They are written like hex code, binary like this `192.0.2.172`, hard to remember so people made the Domain Name System, special server called DNS servers are used to map domain to IP. Use this [webapp](https://www.nslookup.io/website-to-ip-lookup/) to find IP for any site.
+
+### Packets explained
+
+When data is sent from server to clients, they are sent in small chunks. So that when a small piece is dropped along the way, it is easier to resend that small chunk. Each chunk takes different path, path are choosen in real time for the most efficient one, allowing fast response time and allow for many people can access the same resource. If it was sent as a whole, 1 big chunk, then only one user can download it one at a time. Which is inconvenient.
+
+## What is a Domain Name?
+
+The reference for this section is [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name#how_does_a_dns_request_work)
+
+TODO
+
+## Additional resources
 
 TODO
