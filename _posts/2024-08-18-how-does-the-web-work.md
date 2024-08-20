@@ -231,6 +231,162 @@ When data is sent from server to clients, they are sent in small chunks. So that
 
 The reference for this section is [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name#how_does_a_dns_request_work)
 
+You need to learn what URL are first.
+
+### Prerequisite, URL
+
+The reference for this section is [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL)
+
+Uniform Resource Locator. It is the address of a unique resource, browser use this to request resources, from pages to images and so on. URL points to a unique resource but it can also point to a non existing resource, may have been moved or deleted. URL is defined by the server app.
+
+Here are some examples of URL:
+
+```
+https://developer.mozilla.org
+https://developer.mozilla.org/en-US/docs/Learn/
+https://developer.mozilla.org/en-US/search?q=URL
+```
+
+You can use URL in browser's address bar to request the resource.
+
+URL is made of different parts, some are required.
+
+IMG HERE
+
+URL is like postal mail address.
+
+- **Scheme**:
+   - Postal service you want to use.
+   - IMG HERE
+   - This is the request protocol, the rules to adhere. It is usually HTTP or HTTPS for web pages. There are other protocols like mailto and so on.
+   - Take note that not all URL are shaped exactly like this, mailto scheme can look like this and works just fine `mailto:foobar`, it has no domain or port after the scheme.
+
+- **Domain name**:
+   - City or town.
+   - IMG HERE
+   - This is after the `://`, the colon marks the end of the scheme while the double forward slashes indicates that the next part is the authority. The domain and port is part of the authority. The port is after this one after `:`. Domain points to a server, you can use IP here too.
+
+- **Port**:
+   - Zip code.
+   - IMG HERE
+   - This is after the `:`, this is the gate to access the resource inside the server, computer has many ports. Usually ommited when using HTTP or HTTPS. Standard ports for HTTP is 80 and HTTPS is 443.
+
+- **Path**:
+   - Building where the mail should arrive to.
+   - IMG HERE
+   - This is the path to the resource. Back then this is the server file path but now it is just a writing convention abstraction, no physical attachment to anything.
+ 
+- **Parameters**:
+   - Extra information like the number of the apartment building.
+   - IMG HERE
+   - There are parameters for the server. Key value pairs that starts with ? and & delimiters. Certain resources are like machines, they may or may not have input settings that affect what they produce. Web developer makes these and should provide a documentation to tell you in detail.
+
+- **Anchor**:
+   - The actual person that receives the mail.
+   - This is a bookmark inside the resouce, so a browser may scroll down to the bookmark in a page or go to a time in a video.
+   - Note that the part after the `#` is never sent to the server with the request, that part is called the **fragment indentifier**
+
+There are extra rules with URL but is not relevant for regular users or Web developers. No need to know those ones to make and use fully functional URLs.
+
+You can make request in browser address bar but you can also make request from inside the html page itself. You can use the tags:
+
+- Anchor: request a page
+- Link / Script: request a document with its content resource
+- Img / Video / Audio: Display medias
+- IFrame : Display another page inside this page
+
+Take note that for the above, use HTTP or HTTPS. There is exception with the data url but it is not convered here.
+
+Everything above is called absolute URL. There is also something called relative URL. These are called absolute or relative URL strings to distinguish them from URL objects, not discussed here.
+
+When you use URL in browser`s address bar, it does not have context so you need to use absolute. You do not need to add the protocol as default is HTTP and port since you only want to add that if the server uses odd port number.
+
+When you use URL in a document / page. When that page is read by browser, that browser should have the page URL right, so inside the page you can use relative and have the browser fill in the gaps. So if the path starts with `/` in page then the browser will fetch that resource from the top root of the server. Example, say you have a page in this URL `https://developer.mozilla.org/en-US/docs/Learn`. That URL is absolute since it points to domain and path and so on. So in that page you can use the following relative URL that the browser will resolve into absolute.
+
+- **Scheme-relative URL: `//developer.mozilla.org/en-US/docs/Learn`**:
+   - Browser fills in the missing protocol with the one used to get this page.
+
+- **Domain-relative URL: `/en-US/docs/Learn`**:
+   - Browser fills in the missing protocol and domain with the one used to get this page.
+
+- **Sub-resources: `Common_questions/Web_mechanics/What_is_a_URL`**:
+   - Same like above but it does not start with `/`. Browser will use the current resource directory as the reference and look into its sub directory.
+ So it is the same as `US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL`
+
+- **Going back in the directory tree: `../CSS/display`**:
+   - Same like above, this uses the same UNIX file system convention, so it goes up 1 level. Same as `https://developer.mozilla.org/en-US/docs/Learn/../CSS/display` or `https://developer.mozilla.org/en-US/docs/CSS/display`.
+
+- **Anchor-only: `#semantic_urls`**:
+   - Browser will use the current URL and replace or append the anchor to it. Use this to go to a specific part of the current page.
+
+URL is human readable, it is best that you use semantic URL. Meaning you use words with meaning that everyone can understand, why you want to do this:
+
+- It is easier for you to manipulate them. Easy for you to maintain.
+- It clarifies things for users in terms of where they are, what they're doing, what they're reading or interacting with on the Web. User friendly context.
+- Some search engines can use those semantics to improve the classification of the associated pages. Better SEO.
+
+Okay now we can discuss DNS.
+
+Domain names are addresses to Web servers. Part of Internet infrastructure.
+
+Any machine in the Web network has IP Address, either IPv4 or IPv6. Like `192.0.2.172` and `2001:db8:8b73:0000:0000:8a2e:0370:1337` respectively.
+
+Hard to remember numbers that also may change, so people create human-readable addresses called domain names.
+
+### Deeper dive
+
+#### Structure of domain names
+
+Made of parts with dots as delimiters. There can be more than 3 parts.
+
+IMG HERE
+
+Each part represent information.
+
+##### TLD (Top-Level Domain)
+
+Tell uses domain purpose. `.com`, `.org`, `.net` are most common and does not have a clear purpose, however there are other ones with stricter policies so that it enforces clear purpose.
+
+- Local TLDs like `.us`, `.fr` or `.se` require the service to be in the given language or hosted in that country, to indicate resources language and country.
+- `.gov` are for government departments only.
+- `.edu` are for educational and academic institutions only.
+
+TLD can have special and latin characters, max is 63 characters, most use 2 to 3 characters.
+
+All TLDs are maintained by [ICANN](https://www.icann.org/resources/pages/tlds-2012-02-25-en).
+
+##### Label / Component
+
+This is what follows the TLD, label.tld. This is case sensitive, 63 characters max. Contain A to Z, 0 to 9 and dash `-`. Dash cannot be the first or last character. Valid examples are `a`, `97`, `hello-strange-person-16-how-are-you`.
+
+The label that is next to the TLD is known as the SLD, Secondary Level Domain.
+
+You can have many lables, you do not always need 3 labels. Like this one is okay `informatics.ed.ac.uk` and for domains that you have you can create subdomains for different contents. So for this domain `mozilla.org`, you can have these subdomains. `developer.mozilla.org`, `support.mozilla.org`, or `bugzilla.mozilla.org`.
+
+#### Buying a domain name
+
+##### Who owns a domain name?
+
+You cannot buy, if you can buy then unused domain will pile up and thus will be locked up from being used by others. So instead unused ones are available again to be used by someone else. Like reuse.
+
+So you pay the right to use a domain name for 1 or more years. You can renew the right and your renewal is taken of higher priority over others who applied for the right. So no one owns the domain, its like renting cars. New cars can be made but no one owns it, we all rent.
+
+Companies called registrars use domain name registries to keep track of technical and administrative information to map individual to their domain name. Registrar is not always the one managing domain names, `.fire` domain name is managed by Amazon.
+
+##### Finding an available domain name
+
+TODO
+
+##### Getting a domain name
+
+TODO
+
+##### DNS refreshing
+
+TODO
+
+#### How does a DNS request work?
+
 TODO
 
 ## Additional resources
