@@ -78,15 +78,23 @@ For modern computers to communicate to each other they need to be linked physica
 - Wi-Fi: family of wireless network protocols based on the IEEE 802.11 family of standards, which are commonly used for local area networking.
 - Bluetooth: short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks (PANs)
 
-You can use any of the above to connect more than 2 computers. But it gets complicated when you try to connect more than 10 computers that way.
+You can use any of the above to connect more than 2 computers.
 
-IMG HERE
+![how_does_the_web_work_one_to_one_connection]({{ "/assets/images/how-does-the-web-work-one-to-one-connection.png" | relative_url }})
+
+But it gets complicated when you try to connect more than 10 computers that way.
+
+![how_does_the_web_work_too_many_connections]({{ "/assets/images/how-does-the-web-work-too-many-connections.png" | relative_url }})
 
 #### A network of networks
 
-To solve the above, we use a tiny computer called a router. All computers are now connected to this router, and the router only job is to make sure that data sent from 1 computer reaches the correct target. This increases scalability, if the router gets over populated we can introduce another router and then just connect 1 router to another router. This scales infinitely.
+To solve the above, we use a tiny computer called a router. All computers are now connected to this router, and the router only job is to make sure that data sent from 1 computer reaches the correct target. This increases scalability, if the router gets over populated we can introduce another router and then just connect 1 router to another router.
 
-IMG HERE
+![how_does_the_web_work_router_to_more_router]({{ "/assets/images/how-does-the-web-work-router-to-more-router.png" | relative_url }})
+
+This scales infinitely.
+
+![how_does_the_web_work_router_to_router]({{ "/assets/images/how-does-the-web-work-router-to-router.png" | relative_url }})
 
 But the above works for 1 building, like your home. So how to connect this to your friends home? We use existing cable infrastructures like the telephone infrastructure, since it already connects your house with anyone in the world. So connect your router network to it we use modem. Modem converts your router network data format to telephone data format.
 
@@ -94,7 +102,7 @@ After connecting to the telephone infrastructure, we connect to Internet Service
 
 The above explains what the Internet is, an infrastructure of networks, from your home network, to phone network then to ISP.
 
-IMG HERE
+![how_does_the_web_work_internet_infrastructure]({{ "/assets/images/how-does-the-web-work-internet-infrastructure.png" | relative_url }})
 
 #### Finding computers
 
