@@ -375,19 +375,58 @@ Companies called registrars use domain name registries to keep track of technica
 
 ##### Finding an available domain name
 
-TODO
+- Go to domain name registrar's website. Use their "whois" service to check if domain name is available or not.
+- Or use BASH, `whois mozilla.org`. Where you will get
+  ```
+  Domain Name:MOZILLA.ORG
+  Domain ID: D1409563-LROR
+  Creation Date: 1998-01-24T05:00:00Z
+  Updated Date: 2013-12-08T01:16:57Z
+  Registry Expiry Date: 2015-01-23T05:00:00Z
+  Sponsoring Registrar:MarkMonitor Inc. (R37-LROR)
+  Sponsoring Registrar IANA ID: 292
+  WHOIS Server:
+  Referral URL:
+  Domain Status: clientDeleteProhibited
+  Domain Status: clientTransferProhibited
+  Domain Status: clientUpdateProhibited
+  Registrant ID:mmr-33684
+  Registrant Name:DNS Admin
+  Registrant Organization:Mozilla Foundation
+  Registrant Street: 650 Castro St Ste 300
+  Registrant City:Mountain View
+  Registrant State/Province:CA
+  Registrant Postal Code:94041
+  Registrant Country:US
+  Registrant Phone:+1.6509030800
+  ```
+  There you can see that `mozilla.org` is already registered by Mozilla Foundation.
+
+  If a domain is not registered, then the output should be
+  ```
+  NOT FOUND
+  ```
+  Then it shows that the domain name is not in the whois database, where you can register it if you want to.
 
 ##### Getting a domain name
 
-TODO
+1. Go to registrar website.
+2. Click call to action "Get a domain name".
+3. Fill form, do not misspelled your desired domain name, once it is paid it is created forever and cannot be updated.
+4. Registrar will let you know when it is registered, in few hours all DNS servers will have gotten your DNS information.
 
 ##### DNS refreshing
 
-TODO
+DNS databases are in all DNS servers. All DNS servers has to refer to **a few special servers called authoritative name servers** or **top-level DNS servers** AKA boss servers that manage the system.
+
+When registrar creates or updates domain, every DNS database needs to be invalidated first then refreshed where it queries **authoritative server** and get the updated data from it. It takes some time for DNS to get the up-to-date domain.
 
 #### How does a DNS request work?
 
-TODO
+1. Type `mozilla.org` in browser's address or location bar.
+2. If it is in your machine DNS cache, browser uses the stored IP.
+3. If it is not, browser asks DNS server that will response with IP.
+4. Response IP is cached and browser uses IP.
 
 ## Additional resources
 
