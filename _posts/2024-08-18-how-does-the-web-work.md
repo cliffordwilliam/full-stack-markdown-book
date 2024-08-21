@@ -309,9 +309,9 @@ When you use URL in a document / page. When that page is read by browser, that b
 - **Domain-relative URL: `/en-US/docs/Learn`**:
    - Browser fills in the missing protocol and domain with the one used to get this page.
 
-- **Sub-resources: `Common_questions/Web_mechanics/What_is_a_URL`**:
+- **Sub-resources: `Common-questions/Web-mechanics/What-is-a-URL`**:
    - Same like above but it does not start with `/`. Browser will use the current resource directory as the reference and look into its sub directory.
- So it is the same as `US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL`
+ So it is the same as `US/docs/Learn/Common-questions/Web-mechanics/What-is-a-URL` (uses dash here so it wraps, - is counted as separator)
 
 - **Going back in the directory tree: `../CSS/display`**:
    - Same like above, this uses the same UNIX file system convention, so it goes up 1 level. Same as `https://developer.mozilla.org/en-US/docs/Learn/../CSS/display` or `https://developer.mozilla.org/en-US/docs/CSS/display`.
