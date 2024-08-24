@@ -428,6 +428,60 @@ When registrar creates or updates domain, every DNS database needs to be invalid
 3. If it is not, browser asks DNS server that will response with IP.
 4. Response IP is cached and browser uses IP.
 
-## Additional resources
+## Part 1 of the podcast "How the web works"
+
+TODO
+
+## Part 2 of "How the web works"
+
+TODO
+
+## "A Packet's Tale - a video about how data travels across the internet"
+
+TODO
+
+## Tubes: Behind the Scenes at the Internet
+
+TODO
+
+## Introduction to HTTP
+
+Hypertext Transfer Protocol (HTTP) is the stateless protocol. Understanding HTTP is how you understand how web app works.
+
+### A Brief Overview & History
+
+Browser is the interface to interact with the world wide web or just Web. Server sent files to browser as the client, files are sent with HTTP protocol. HTTP was invented by Tim Berners-Lee in 1980s. Hypertexts and hyperlinks is an idea / concept that not only HTML has, it is the idea that a page can link to another page.
+
+HTTP is the rule of how to transfer data over the Web, but you can use it for other uses too like locally. HTTP is the rule from how to make the request, how the transfer is done, and how to make the response. It is a request response protocol where the client makes a request to the server. It is like ISO, a standard that people agreed upon on how to transfer hypertext data consistently so we all know how to handle it.
+
+There has been many versions of the HTTP protocol. From only HTML pages in 1991 to another version where it can send other file types like CSS, videos and so on. HTTP is still evolving today.
+
+### How the Internet Works
+
+All machines connected to the Web has IP Address, Internet Protocal Address. You have to specify which server and which port from it you want. Ports are commonly used for peripherals, but in servers each port is used for different apps, 1 server can have multiple apps listening to its different ports.
+
+IP Addresses are represented as:
+
+```
+192.168.0.1
+```
+
+When a port number is needed, the address is specified as:
+
+```
+192.168.0.1:1234
+```
+
+`192.168.0.1` is the IP Address and `1234` is the port number. IP Addresses for server request are public, there are also private local IP Addresses that the moden or router with define for your machine. We need to write the public IP Address in the URL request, but how do browser map the domain that you type in URL into the right IP Address?
+
+### DNS
+
+Domain name to IP Address is done by the Domain Name System (DNS) server. It is a distributed databases. We need to map domain name into IP Address because domain names does not contain the IP Address information. DNS keeps track of domain names and their IP Addresses.
+
+DNS databases are stored in DNS servers. There is a world wide network of **hierarchically** organized DNS servers. No single DNS server contains the full database. If a DNS server does not contain the database it needs, it will route request to another DNS in higher hierarchy. This recursively happens until the IP Address is found.
+
+TODO
+
+## The hidden network that makes the internet possible
 
 TODO
