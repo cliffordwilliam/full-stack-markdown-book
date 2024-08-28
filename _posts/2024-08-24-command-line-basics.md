@@ -391,11 +391,102 @@ Commands are designed by someone, the way someone design it is like a machine, s
 
 ## Working With Files and Dirs
 
+### Creating directories
+
+At this point, we know how to get to any files or dirs in a machine. Now we learn how to make and move them.
+
+Go to the `shell-lesson-data/exercise-data/writing/`.
+
+In there create a dir called thesis.
+
+```Bash
+$ mkdir thesis
+```
+
+No output
+
+You can use the `-R` in `ls` to list all nested sub dir,
+
+```Bash
+$ ls -FR
+.:
+exercise-data/  north-pacific-gyre/
+
+./exercise-data:
+alkanes/  animal-counts/  creatures/  numbers.txt  writing/
+
+./exercise-data/alkanes:
+cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
+
+./exercise-data/animal-counts:
+animals.csv
+
+./exercise-data/creatures:
+basilisk.dat  minotaur.dat  unicorn.dat
+
+./exercise-data/writing:
+haiku.txt  LittleWomen.txt
+
+./north-pacific-gyre:
+goodiff.sh   NENE01729A.txt  NENE01736A.txt  NENE01751B.txt  NENE01843A.txt  NENE01971Z.txt  NENE01978B.txt  NENE02040A.txt  NENE02040Z.txt  NENE02043B.txt
+goostats.sh  NENE01729B.txt  NENE01751A.txt  NENE01812A.txt  NENE01843B.txt  NENE01978A.txt  NENE02018B.txt  NENE02040B.txt  NENE02043A.txt
+```
+
+### Naming files and dirs
+
+1. **Do not use spaces:**  
+  Spaces are used to separate arguments in commands, so the space character is reserved as CLI argument delimiters. You can use the '' in the path to escape the space reservation but it is better to avoid spaces. Use `-` or `_`. Take note that the `-` acts as a separator for each work so it behave just like a space, `_` is treated like another character so there is no separation between letters.
+
+2. **Do not use `-` at start:**  
+  This is because `-` is reserved for starting an option, you can escape it but better name it with something so that you can avoid using the escape.
+
+3. **Use letters. numbers, period, dash and underscore:**  
+  The reason is the other characters are reserved already.
+
+Pay attention to the path before using it in any commands, if it has spaces or symbols, better use the quotes to escape it.
+
+### Create a text file
+
+Go into thesis dir and create a file:
+
+```Bash
+$ nano draft.txt
+```
+
+Nano is just like VSCode, it is a text editor, but a very light and simple one that is available in Unix like system. Like the notepad of Windows. When you use nano, it will be opened in the current working dir, that is where it looks for file and where it saves them. If you were to open Nano from GUI in start menu, it will save to either documents or desktop dirs since there are no current working dir, there should be a save as feature too.
+
+When you open nano, there should be legendds on the nano commands at the bottom, the `^` means it is the `ctrl` key. `WriteOut` = write to disk. It will then asks what name should it be saved under, the name should be recommended as what the file name was you pass to the nano command argument. Then quit the nano. There is no output on quit but your file should be there.
+
+Here are other ways the ctrl key may be represented as:
+
+-Control-X
+-Control+X
+-Ctrl-X
+-Ctrl+X
+-^X
+-C-x
+
+### Creating files in a different way
+
 TODO
 
 ## Command lists
 
 Here are lists of commands from this lesson.
+
+### mkdir
+
+Make dir
+
+No output
+
+Argument:
+- path to a non existing dir, it will make that dir exist
+- add space between path to make more than 1
+- make multiple dirs:
+
+Options:
+- `-p` = able to create dir with nested sub dir in it
 
 ### cd
 
@@ -439,6 +530,7 @@ Options:
 - `-r` = Flip ordering.
 - `-s` = add size info in BLOCKS (diff OS diff unit).
 - `-S` = ASC size.
+- `-R` = list sub dirs.
 
 ### whoami
 
