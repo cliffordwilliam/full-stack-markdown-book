@@ -524,7 +524,7 @@ Listing, list current dir contents. Alphabetical name ASC default.
 
 Options:
 - `-F` = adds type indicator.
-- `-l` = adds more info.
+- `-l` = adds more info (size in BYTES).
 - `-h` = reformat to human readable.
 - `-t` = ASC modified at.
 - `-r` = Flip ordering.
